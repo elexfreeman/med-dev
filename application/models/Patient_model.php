@@ -26,29 +26,29 @@ class Patient_model extends CI_Model {
     {
         /*
         [Patient] => Array
-(
-    [id] => 1
-    [name] => Александр
-    [surname] => Полозов
-    [secname] => Андреевич
-    [sex] => 1
-    [birthday] => 1984-09-04
-    [snils] =>
-    [enp] =>
-    [mpi] =>
-    [patient_doc] => Array
-        (
-            [id] => 1
-            [patient_id] => 1
-            [doc_type] => 1
-            [doc_series] => 3304
-            [doc_number] => 458569
-            [doc_source] =>
-            [doc_date] =>
-            [citizenship] =>
-            [doc_type_caption] => Паспорт
-        )
-)
+            (
+                [id] => 1
+                [name] => Александр
+                [surname] => Полозов
+                [secname] => Андреевич
+                [sex] => 1
+                [birthday] => 1984-09-04
+                [snils] =>
+                [enp] =>
+                [mpi] =>
+                [patient_doc] => Array
+                    (
+                        [id] => 1
+                        [patient_id] => 1
+                        [doc_type] => 1
+                        [doc_series] => 3304
+                        [doc_number] => 458569
+                        [doc_source] =>
+                        [doc_date] =>
+                        [citizenship] =>
+                        [doc_type_caption] => Паспорт
+                    )
+            )
         */
         $query = $this->db->get_where('patient', array('id' => $patient_id));
 
