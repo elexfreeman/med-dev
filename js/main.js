@@ -16,6 +16,13 @@ $(function() {
     setTimeout(function() {
         FooterHeight();
     },100);
+
+    /*Измение пола пациента в форме*/
+    $( "input[name='sex']" ).change(function() {
+        // Check input( $( this ).val() ) for validity here
+        patient.ChangeSex();
+
+    });
 });
 
 
@@ -24,5 +31,13 @@ var patient = [];
 
 patient.ChangeSex = function()
 {
-
+    /*если мужик*/
+    if($('input[name=sex]:checked').val()=='1')
+    {
+        $(".patient-edit-sex").attr('src','/images/icons/human-512.png')
+    }
+    else
+    {
+        $(".patient-edit-sex").attr('src','/images/icons/wooman-512.png')
+    }
 }
