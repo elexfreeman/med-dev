@@ -38,6 +38,6 @@ patient.ChangeSex = function()
     }
     else
     {
-        $(".patient-edit-sex").attr('src','/images/icons/wooman-512.png')
+        $(".patient-edit-sex").attr('src','/images/icons/woman-512.png')
     }
 }

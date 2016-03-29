@@ -28,7 +28,7 @@
                         <label for="surname" class="form-label">фамилия:</label>
 
                         <input id="surname" type="text"
-                               value="<?php echo set_value('surname'); ?>"
+                               value="<?php echo $surname; ?>"
                                placeholder="Фамилия" name="surname"
                                class="w-input form-text-field <?php if(form_error('surname')!='') echo 'form-error-input'; ?>">
                     </div>
@@ -36,12 +36,14 @@
                         <label for="name" class="form-label">имя:</label>
 
                         <input id="name" type="text"
+                               value="<?php echo $name; ?>"
                                placeholder="Имя" name="name"  data-name="Name 2"
                                class="w-input form-text-field <?php if(form_error('name')!='') echo 'form-error-input'; ?>">
                     </div>
                     <div class="w-col w-col-3">
                         <label for="secname" class="form-label">отчество:</label>
                         <input id="secname" type="text"
+                               value="<?php echo $secname; ?>"
                                placeholder="Отчество" name="secname"  data-name="secname"
                                class="w-input form-text-field <?php if(form_error('secname')!='') echo 'form-error-input'; ?>">
                     </div>
