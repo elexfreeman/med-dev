@@ -25,10 +25,15 @@ class Patient_model extends CI_Model {
     public function Get($patient_id)
     {
         $query = $this->db->get_where('patient', array('id' => $patient_id));
-        foreach($query->result() as $patient)
-        {
-           $patient=$patient;
-        }
+
+        /*выбираем одну строчку*/
+        $patient=$query->result();
+        if(count($patient)>0) $patient=$patient[0];
+
+        /*паспортные данные*/
+        $query = $this->db->get_where('patient_doc', array('id' => $patient_id));
+        $patient->patient_doc=$query->result();
+        if(count($patient->patient_doc)>0) $patient->patient_doc=$patient->patient_doc[0];
 
         return $patient;
     }
