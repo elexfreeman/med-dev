@@ -222,8 +222,10 @@
             </div>
             <div class="w-row">
                 <div class="w-col w-col-6">
-                    <label for="CORPUS-3" class="form-label">Место выдачи:</label>
-                    <input id="CORPUS-3" type="text" name="CORPUS-3"  data-name="Corpus 3" class="w-input form-text-field">
+                    <label for="doc_source" class="form-label">Место выдачи:</label>
+                    <input id="doc_source" type="text"
+                           value="<?php echo $patient->patient_doc->doc_source; ?>"
+                           name="doc_source"  data-name="doc_source" class="w-input form-text-field">
                 </div>
                 <div class="w-col w-col-6">
                     <label for="CORPUS-2" class="form-label">citizenship</label>
