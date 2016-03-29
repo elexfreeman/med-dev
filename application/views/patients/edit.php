@@ -229,7 +229,9 @@
                 </div>
                 <div class="w-col w-col-6">
                     <label for="citizenship" class="form-label">Гражданство</label>
-                    <input id="citizenship" type="text" name="citizenship"  data-name="citizenship" class="w-input form-text-field">
+                    <input id="citizenship" type="text"
+                           value="<?php echo $patient->patient_doc->citizenship; ?>"
+                           name="citizenship"  data-name="citizenship" class="w-input form-text-field">
                 </div>
             </div>
         </div>
