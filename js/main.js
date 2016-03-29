@@ -23,6 +23,14 @@ $(function() {
         patient.ChangeSex();
 
     });
+
+    $('.hasDatepicker1').datetimepicker({
+        format:'d.m.Y',
+        lang:'ru',
+        timepicker:false,
+        closeOnDateSelect:true,
+
+    });
 });
 
 
