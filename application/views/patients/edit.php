@@ -5,6 +5,7 @@
     <div class="w-form">
 
         <?php echo form_open('patients/edit/'.$patient->id,['class' => '', 'id' => 'patient_edit']); ?>
+        <input type="hidden" >
         <div class="w-row">
             <div class="w-col w-col-3 from-patient-sex">
                 <img src="<?php if($patient->sex==1) echo $this->config->item('man_img');else  echo $this->config->item('wooman_img'); ?>" class="patient-edit-sex">

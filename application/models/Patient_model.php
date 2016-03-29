@@ -47,7 +47,7 @@ class Patient_model extends CI_Model {
             if($doc->id==$patient->patient_doc->doc_type)
             {
                 /*проставляем тип документа*/
-                $patient->patient_doc->doc_type=$doc->caption;
+                $patient->patient_doc->doc_type_caption=$doc->caption;
                 /*проставляем для списка выбора*/
                 $patient->doc_type[$i]->doc=true;
             }
