@@ -54,7 +54,7 @@
                     <div class="w-col w-col-3">
                         <label for="birthday" class="form-label">Дата рождения:</label>
                         <input id="birthday" type="text" placeholder="00.00.0000" name="birthday"
-                               value="<?php echo date( 'm.d.Y', strtotime($patient->birthday) ); ?>"
+                               value="<?php echo $patient->birthday; ?>"
                                data-name="birthday" class="hasDatepicker w-input form-text-field">
                     </div>
                 </div>
