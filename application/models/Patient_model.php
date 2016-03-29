@@ -42,9 +42,9 @@ class Patient_model extends CI_Model {
 
         foreach($patient->doc_type as $i=>$doc)
         {
-            $patient->doc_type[$i]=false;
+            $patient->doc_type[$i]->doc=false;
             if($doc->id==$patient->patient_doc) {
-                $patient->doc_type[$i]=true;
+                $patient->doc_type[$i]->doc=true;
             }
 
         }
