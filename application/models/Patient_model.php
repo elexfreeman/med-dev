@@ -21,13 +21,16 @@ class Patient_model extends CI_Model {
             return $query->result_array();
     }
 
+    /*Информация об одном пациенте*/
     public function Get($patient_id)
     {
         $query = $this->db->get_where('patient', array('id' => $patient_id));
-       foreach($query->result() as $res)
-       {
-           return $res;
-       }
+        foreach($query->result() as $patient)
+        {
+           $patient=$patient;
+        }
+
+        return $patient;
     }
 
     public function insert()
