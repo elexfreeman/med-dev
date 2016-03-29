@@ -197,13 +197,12 @@
                     </select>
                 </div>
                 <div class="w-col w-col-3">
-                    <label for="REGION-2" class="form-label">серия:</label>
-                    <select id="REGION-2" name="REGION-2" data-name="Region 2" class="w-select">
-                        <option value="">Select one...</option>
-                        <option value="First">First Choice</option>
-                        <option value="Second">Second Choice</option>
-                        <option value="Third">Third Choice</option>
-                    </select>
+                    <label for="doc_series" class="form-label">серия:</label>
+                    <input id="doc_series" type="text" placeholder="0000"
+                           value="<?php echo $patient->patient_doc->doc_series; ?>"
+                           name="doc_series"  data-name="doc_series" class="w-input form-text-field">
+
+
                 </div>
                 <div class="w-col w-col-3">
                     <label for="AREA-4" class="form-label">Номер:</label>
