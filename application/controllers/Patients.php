@@ -116,13 +116,8 @@ class Patients extends CI_Controller {
 			else
 			{
 				$this->patient_model->update($patient_id);
-				/*Заголовок общтй для всех*/
-				$this->load->view('head', $this->data);
-				/*навбар*/
-				$this->load->view('navbar/admin_navbar', $this->data);
-				$this->load->view('patients/formsuccess');
-				/*футер общий для всех*/
-				$this->load->view('footer');
+				/*Редиректим на список выбора*/
+				redirect('/patients');
 			}
 		}
 	}
