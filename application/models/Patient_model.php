@@ -14,7 +14,7 @@ class Patient_model extends CI_Model {
         $this->load->database();
     }
 
-    /*все что нужно в навбаре*/
+    /*список всех, без join таблиц*/
     public function GetAll()
     {
             $query = $this->db->get('patient');
