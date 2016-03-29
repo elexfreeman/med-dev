@@ -217,7 +217,7 @@
                     <label for="doc_date" class="form-label">Дата выдачи:</label>
                     <input id="doc_date" type="text"
                            value="<?php echo $patient->patient_doc->doc_date; ?>"
-                           name="doc_date"  data-name="doc_date" class="w-input form-text-field hasDatepicker <?php if(form_error('surname')!='') echo 'form-error-input'; ?>"">
+                           name="doc_date"  data-name="doc_date" class="w-input form-text-field hasDatepicker <?php if(form_error('doc_date')!='') echo 'form-error-input'; ?>"">
                 </div>
             </div>
             <div class="w-row">
