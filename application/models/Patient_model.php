@@ -29,25 +29,18 @@ class Patient_model extends CI_Model {
         /*выбираем одну строчку*/
         $patient=$query->result();
         if(count($patient)>0) $patient=$patient[0];
-
+        $this->db->reset_query();
         /*паспортные данные*/
         $query = $this->db->get_where('patient_doc', array('id' => $patient_id));
         $this->db->limit(1);
         $patient->patient_doc=$query->result();
         if(count($patient->patient_doc)>0) $patient->patient_doc=$patient->patient_doc[0];
-
+        $this->db->reset_query();
         /*Список типов документов*/
         $this->load->model('reference_model');
         $patient->doc_type=$this->reference_model->Info('doc_type');
 
-        foreach($patient->doc_type as $i=>$doc)
-        {
-            $patient->doc_type[$i]->doc=false;
-            if($doc->id==$patient->patient_doc) {
-                $patient->doc_type[$i]->doc=true;
-            }
 
-        }
 
         return $patient;
     }
