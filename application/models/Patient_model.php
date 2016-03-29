@@ -95,14 +95,16 @@ class Patient_model extends CI_Model {
 
     public function update($id)
     {
+        $this->patient = new stdClass;
         $this->db->where('id', $id);
-        $this->name    = $_POST['name']; // please read the below note
-        $this->surname  = $_POST['surname'];
-        $this->secname  = $_POST['secname'];
-        $this->sex  = $_POST['sex'];
-        $this->birthday     = date( 'Y-m-d', strtotime($_POST['birthday']) );
+        $this->patient->name    = $_POST['name']; // please read the below note
+        $this->patient->surname  = $_POST['surname'];
+        $this->patient->secname  = $_POST['secname'];
+        $this->patient->sex  = $_POST['sex'];
+        $this->patient->birthday     = date( 'Y-m-d', strtotime($_POST['birthday']) );
+        $this->db->update('patient', $this->patient);
 
-        $this->db->update('patient', $this);
+
     }
 
 
