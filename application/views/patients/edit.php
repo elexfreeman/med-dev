@@ -192,10 +192,7 @@
                         <?php
                         }
                         ?>
-                        <option value="">Select one...</option>
 
-                        <option value="Second">Second Choice</option>
-                        <option value="Third">Third Choice</option>
                     </select>
                 </div>
                 <div class="w-col w-col-3">
