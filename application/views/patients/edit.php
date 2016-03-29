@@ -175,7 +175,8 @@
         </div>
 
         <div class="from-tab">
-            <div class="w-clearfix"><strong>Документ:</strong><?php print_r($patient->doc_type); ?> паспорт 3304 542148<span class="form-plus">+</span>
+            <div class="w-clearfix"><strong>Документ:</strong>
+                <?php echo $patient->patient_doc->doc_series; ?> <?php echo $patient->patient_doc->doc_number; ?><span class="form-plus">+</span>
             </div>
         </div>
         <div class="from-tab-content">

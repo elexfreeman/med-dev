@@ -30,17 +30,17 @@ class Patient_model extends CI_Model {
         $patient=$query->result();
         if(count($patient)>0) $patient=$patient[0];
         $this->db->reset_query();
+
         /*паспортные данные*/
         $query = $this->db->get_where('patient_doc', array('id' => $patient_id));
         $this->db->limit(1);
         $patient->patient_doc=$query->result();
         if(count($patient->patient_doc)>0) $patient->patient_doc=$patient->patient_doc[0];
         $this->db->reset_query();
+
         /*Список типов документов*/
         $this->load->model('reference_model');
         $patient->doc_type=$this->reference_model->Info('doc_type');
-
-
 
         return $patient;
     }
