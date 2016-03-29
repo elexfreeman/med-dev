@@ -56,6 +56,7 @@ class Patient_model extends CI_Model {
         $patient=$query->result();
         if(count($patient)>0) $patient=$patient[0];
         $this->db->reset_query();
+        $patient->birthday    = date( 'd.m.Y', strtotime($patient->birthday) );
 
         /*паспортные данные*/
         $query = $this->db->get_where('patient_doc', array('id' => $patient_id));
@@ -63,7 +64,7 @@ class Patient_model extends CI_Model {
         $patient->patient_doc=$query->result();
         if(count($patient->patient_doc)>0) $patient->patient_doc=$patient->patient_doc[0];
         $this->db->reset_query();
-
+        $patient->patient_doc->doc_date    = date( 'd.m.Y', strtotime($patient->patient_doc->doc_date) );
         /*Список типов документов*/
         $this->load->model('reference_model');
         $patient->doc_type=$this->reference_model->Info('doc_type');
@@ -111,7 +112,7 @@ class Patient_model extends CI_Model {
         $this->patient->doc_series    = $_POST['doc_series'];
         $this->patient->doc_number    = $_POST['doc_number'];
         $this->patient->doc_source    = $_POST['doc_source'];
-        $this->patient->doc_date    = $_POST['doc_date'];
+        $this->patient->doc_date    = date( 'Y-m-d', strtotime($_POST['doc_date']) );
         $this->patient->citizenship    = $_POST['citizenship'];
         $this->db->update('patient_doc', $this->patient);
         $this->db->reset_query();
