@@ -228,8 +228,8 @@
                            name="doc_source"  data-name="doc_source" class="w-input form-text-field">
                 </div>
                 <div class="w-col w-col-6">
-                    <label for="CORPUS-2" class="form-label">citizenship</label>
-                    <input id="CORPUS-2" type="text" name="CORPUS-2"  data-name="Corpus 2" class="w-input form-text-field">
+                    <label for="citizenship" class="form-label">Гражданство</label>
+                    <input id="citizenship" type="text" name="citizenship"  data-name="citizenship" class="w-input form-text-field">
                 </div>
             </div>
         </div>
