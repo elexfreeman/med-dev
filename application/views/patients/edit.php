@@ -1,6 +1,9 @@
 <div class="w-container">
     <h1 class="body-h1">Пациент&nbsp;<span class="body-h1-span">(редактирование)</span></h1>
 </div>
+<pre style="display: none">
+    <?php print_r($patient);?>
+</pre>
 <div class="w-container patient-container">
     <div class="w-form">
 
