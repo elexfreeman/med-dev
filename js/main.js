@@ -16,6 +16,13 @@ $(function() {
     setTimeout(function() {
         FooterHeight();
     },100);
-
-
 });
+
+
+/*Пациент*/
+var patient = [];
+
+patient.ChangeSex = function()
+{
+
+}

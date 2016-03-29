@@ -7,7 +7,8 @@
 
         <?php echo form_open('patients/add',['class' => '', 'id' => 'patient_add']); ?>
             <div class="w-row">
-                <div class="w-col w-col-3 from-patient-sex"><img src="/images/icons/human-512.png" class="patient-edit-sex">
+                <div class="w-col w-col-3 from-patient-sex">
+                    <img src="/images/icons/human-512.png" class="patient-edit-sex">
                     <div class="w-radio form-radio-line">
                         <input id="man" type="radio" name="sex" checked value="1"
                             <?php echo set_checkbox('sex', '1'); ?>
