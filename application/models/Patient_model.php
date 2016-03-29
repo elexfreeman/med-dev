@@ -32,8 +32,11 @@ class Patient_model extends CI_Model {
 
         /*паспортные данные*/
         $query = $this->db->get_where('patient_doc', array('id' => $patient_id));
+        $this->db->limit(1);
         $patient->patient_doc=$query->result();
         if(count($patient->patient_doc)>0) $patient->patient_doc=$patient->patient_doc[0];
+
+
 
         return $patient;
     }
