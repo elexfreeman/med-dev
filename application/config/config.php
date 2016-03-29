@@ -511,3 +511,8 @@ $config['rewrite_short_tags'] = FALSE;
 | Array:		array('10.0.1.200', '192.168.5.0/24')
 */
 $config['proxy_ips'] = '';
+
+
+/*Разные константы*/
+$config['man_img'] = '/images/icons/human-512.png';
+$config['wooman_img'] = '/images/icons/woman-512.png';

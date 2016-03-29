@@ -30,7 +30,22 @@ class Patients extends CI_Controller {
 
 		/*загружаем navbar*/
 		$this->load->model('navbar_model');
+		$this->load->model('navbar_model');
 		$this->data['navbar']=$this->navbar_model->Get();
+
+		/*Пациент*/
+		$this->load->model('patient_model');
+
+		$this->load->helper(array('form', 'url'));
+		$this->load->library('form_validation');
+
+		/*Настройки валидатора*/
+		$this->form_validation->set_rules('surname', 'Фамилия', 'required');
+		$this->form_validation->set_rules('secname', 'Отчество', 'required');
+		$this->form_validation->set_rules('name', 'Имя', 'required',
+			array('required' => 'Поле %s, должно быть заполненно .')
+		);
+
 	}
 	public function index()
 	{
@@ -58,10 +73,86 @@ class Patients extends CI_Controller {
 			$this->load->view('head',$this->data);
 			/*навбар*/
 			$this->load->view('navbar/admin_navbar',$this->data);
+			$this->data['patients']=$this->patient_model->GetAll();;
 
 			$this->load->view('patients/index',$this->data);
 			/*футер общий для всех*/
 			$this->load->view('footer');
 		}
 	}
+
+	/*редактирование пациента*/
+	function edit($patient_id)
+	{
+		if (!$this->ion_auth->logged_in()) {
+			// redirect them to the login page
+			redirect('http://' . $_SERVER['SERVER_NAME'] . '/auth/login', 'refresh');
+		} /*Если не админ то подгружаем user view*/
+		elseif (!$this->ion_auth->is_admin()) // remove this elseif if you want to enable this for non-admins
+		{
+
+		}
+		else {
+
+			$this->data['patient']=$this->patient_model->get($patient_id);
+			if ($this->form_validation->run() == FALSE) {
+				/*Заголовок общтй для всех*/
+				$this->load->view('head', $this->data);
+				/*навбар*/
+				$this->load->view('navbar/admin_navbar', $this->data);
+				$this->load->view('patients/edit', $this->data);
+				/*футер общий для всех*/
+				$this->load->view('footer');
+			}
+			else
+			{
+				$this->patient_model->update($patient_id);
+				/*Заголовок общтй для всех*/
+				$this->load->view('head', $this->data);
+				/*навбар*/
+				$this->load->view('navbar/admin_navbar', $this->data);
+				$this->load->view('patients/formsuccess');
+				/*футер общий для всех*/
+				$this->load->view('footer');
+			}
+		}
+	}
+
+	/*редактирование пациента*/
+	function add()
+	{
+		if (!$this->ion_auth->logged_in()) {
+			// redirect them to the login page
+			redirect('http://' . $_SERVER['SERVER_NAME'] . '/auth/login', 'refresh');
+		} /*Если не админ то подгружаем user view*/
+		elseif (!$this->ion_auth->is_admin()) // remove this elseif if you want to enable this for non-admins
+		{
+
+		}
+		else {
+
+
+			if ($this->form_validation->run() == FALSE) {
+				/*Заголовок общтй для всех*/
+				$this->load->view('head', $this->data);
+				/*навбар*/
+				$this->load->view('navbar/admin_navbar', $this->data);
+				$this->load->view('patients/add');
+				/*футер общий для всех*/
+				$this->load->view('footer');
+			}
+			else
+			{
+				$this->patient_model->insert();
+				/*Заголовок общтй для всех*/
+				$this->load->view('head', $this->data);
+				/*навбар*/
+				$this->load->view('navbar/admin_navbar', $this->data);
+				$this->load->view('patients/formsuccess');
+				/*футер общий для всех*/
+				$this->load->view('footer');
+			}
+		}
+	}
+
 }

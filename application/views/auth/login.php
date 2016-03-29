@@ -18,9 +18,11 @@
 
     <?php echo lang('login_remember_label', 'remember');?>
 
-    <?php echo form_checkbox('remember', '1', FALSE, 'id="remember"');?>
+
+    <input style='width: 15px;height: 15px;' type="checkbox" name="remember" value="1" id="remember">
     <br>
     <?php echo form_submit('submit', lang('login_submit_btn'));?>
+
 
     <?php echo form_close();?>
     <br>

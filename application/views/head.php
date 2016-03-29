@@ -8,6 +8,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="Webflow">
     <link rel="stylesheet" type="text/css" href="/css/wf/wf.css">
+    <link rel="stylesheet" type="text/css" href="/css/jquery.datetimepicker.css">
     <link rel="stylesheet" type="text/css" href="/css/wf/main.css">
     <link rel="stylesheet" type="text/css" href="/css/wf/add.css">
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>

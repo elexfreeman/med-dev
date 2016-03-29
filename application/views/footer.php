@@ -1,6 +1,7 @@
 </div><!-- screen -->
-<div class="footer"></div>
+<!-- <div class="footer"></div> -->
 <script type="text/javascript" src="/js/wf/jquery.min.js"></script>
+<script type="text/javascript" src="/js/jquery.datetimepicker.js"></script>
 <script type="text/javascript" src="/js/wf/webflow.js"></script>
 <script type="text/javascript" src="/js/main.js"></script>
 <!--[if lte IE 9]>
