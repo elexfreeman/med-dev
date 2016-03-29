@@ -97,7 +97,7 @@ class Patient_model extends CI_Model {
     {
         $this->patient = new stdClass;
         $this->db->where('id', $id);
-        $this->patient->name    = $_POST['name']; // please read the below note
+        $this->patient->name    = $_POST['name'];
         $this->patient->surname  = $_POST['surname'];
         $this->patient->secname  = $_POST['secname'];
         $this->patient->sex  = $_POST['sex'];
@@ -106,6 +106,15 @@ class Patient_model extends CI_Model {
         $this->db->reset_query();
         $this->patient = null;
         $this->patient = new stdClass;
+        $this->db->where('id', $_POST['patient_doc_id']);
+        $this->patient->doc_type    = $_POST['doc_type'];
+        $this->patient->doc_series    = $_POST['doc_series'];
+        $this->patient->doc_number    = $_POST['doc_number'];
+        $this->patient->doc_source    = $_POST['doc_source'];
+        $this->patient->doc_date    = $_POST['doc_date'];
+        $this->patient->citizenship    = $_POST['citizenship'];
+        $this->db->update('patient_doc', $this->patient);
+        $this->db->reset_query();
 
     }
 
