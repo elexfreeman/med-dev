@@ -42,6 +42,15 @@ where (my_tables.TABLE_SCHEMA='".$this->db->database."')and(TABLE_NAME LIKE 'med
         return $query->result();
     }
 
+    /*список строк в справочнике с таблицей $reference*/
+    public function InfoArray($reference)
+    {
+        $reference = $this->security->xss_clean($reference);
+
+        $query = $this->db->get('reference_'.$reference);
+        return $query->result_array();
+    }
+
     public function GetName($reference)
     {
         $reference = $this->security->xss_clean($reference);
