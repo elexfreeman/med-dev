@@ -184,8 +184,16 @@
                 <div class="w-col w-col-3">
                     <label for="doc_type" class="form-label">Тип документа:</label>
                     <select id="doc_type" name="doc_type" data-name="doc_type" class="w-select">
+                        <?php
+                        foreach($patient->doc_type as $doc_type)
+                        {
+                        ?>
+                            <option value="<?php echo $doc_type->id; ?>" <?php if($doc_type->doc) echo " selected "; ?>><?php echo $doc_type->caption; ?></option>
+                        <?php
+                        }
+                        ?>
                         <option value="">Select one...</option>
-                        <option value="First">First Choice</option>
+
                         <option value="Second">Second Choice</option>
                         <option value="Third">Third Choice</option>
                     </select>
