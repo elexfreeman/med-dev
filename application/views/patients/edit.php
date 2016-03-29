@@ -206,12 +206,9 @@
                 </div>
                 <div class="w-col w-col-3">
                     <label for="AREA-4" class="form-label">Номер:</label>
-                    <select id="AREA-4" name="AREA" data-name="AREA" class="w-select">
-                        <option value="">Select one...</option>
-                        <option value="First">First Choice</option>
-                        <option value="Second">Second Choice</option>
-                        <option value="Third">Third Choice</option>
-                    </select>
+                    <input id="doc_number" type="text" placeholder="0000"
+                           value="<?php echo $patient->patient_doc->doc_number; ?>"
+                           name="doc_number"  data-name="doc_number" class="w-input form-text-field">
                 </div>
                 <div class="w-col w-col-3">
                     <label for="house-7" class="form-label">Дата выдачи:</label>
