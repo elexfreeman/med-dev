@@ -24,7 +24,7 @@ class Patient_model extends CI_Model {
     public function Get($patient_id)
     {
         $query = $this->db->get_where('patient', array('id' => $patient_id));
-       foreach($query->result_array() as $res)
+       foreach($query->result() as $res)
        {
            return $res;
        }
@@ -50,7 +50,7 @@ class Patient_model extends CI_Model {
         $this->sex  = $_POST['sex'];
         $this->birthday     = date( 'Y-m-d', strtotime($_POST['birthday']) );
 
-        $this->update->replace('patient', $this);
+        $this->db->update('patient', $this);
     }
 
 

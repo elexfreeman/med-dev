@@ -1,23 +1,23 @@
-<?php print_r($patient);?>
 <div class="w-container">
     <h1 class="body-h1">Пациент&nbsp;<span class="body-h1-span">(редактирование)</span></h1>
 </div>
 <div class="w-container patient-container">
     <div class="w-form">
 
-        <?php echo form_open('patients/edit',['class' => '', 'id' => 'patient_edit']); ?>
+        <?php echo form_open('patients/edit/'.$patient->id,['class' => '', 'id' => 'patient_edit']); ?>
         <div class="w-row">
             <div class="w-col w-col-3 from-patient-sex">
-                <img src="<?php if($patient['sex']==1) echo $this->config->item('man_img');else  echo $this->config->item('wooman_img'); ?>" class="patient-edit-sex">
+                <img src="<?php if($patient->sex==1) echo $this->config->item('man_img');else  echo $this->config->item('wooman_img'); ?>" class="patient-edit-sex">
                 <div class="w-radio form-radio-line">
                     <input id="man" type="radio" name="sex"  value="1"
-                        <?php echo set_checkbox('sex', '1'); ?>
+                        <?php if($patient->sex==1) echo 'checked'; ?>
+                        <?php echo set_checkbox('sex', '1',$patient->sex==1); ?>
                            data-name="sex" class="w-radio-input">
                     <label for="man" class="w-form-label">Мужчина</label>
                 </div>
                 <div class="w-radio form-radio-line">
                     <input id="wooman" type="radio" name="sex" value="2"
-                        <?php echo set_checkbox('sex', '2'); ?>
+                        <?php if($patient->sex==2) echo 'checked'; ?>
                            data-name="sex" class="w-radio-input">
                     <label for="wooman" class="w-form-label">Женщина</label>
                 </div>

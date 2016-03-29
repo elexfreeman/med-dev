@@ -97,7 +97,7 @@ class Patients extends CI_Controller {
 			/*Получаем текущее значение из базы*/
 			$patient=$this->patient_model->get($patient_id);
 
-
+			$this->data['patient']=$patient;
 			$this->data['surname'] = $this->form_validation->set_value('surname', $patient->surname);
 			$this->data['secname'] =$this->form_validation->set_value('secname', $patient->secname);
 			$this->data['name'] = $this->form_validation->set_value('name', $patient->name);
