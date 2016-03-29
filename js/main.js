@@ -24,7 +24,7 @@ $(function() {
 
     });
 
-    $('.hasDatepicker1').datetimepicker({
+    $('.hasDatepicker').datetimepicker({
         format:'d.m.Y',
         lang:'ru',
         timepicker:false,
