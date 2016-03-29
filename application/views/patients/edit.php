@@ -181,8 +181,8 @@
         <div class="from-tab-content">
             <div class="w-row">
                 <div class="w-col w-col-3">
-                    <label for="REGION-3" class="form-label">Тип документа:</label>
-                    <select id="REGION-3" name="REGION-3" data-name="Region 3" class="w-select">
+                    <label for="doc_type" class="form-label">Тип документа:</label>
+                    <select id="doc_type" name="doc_type" data-name="doc_type" class="w-select">
                         <option value="">Select one...</option>
                         <option value="First">First Choice</option>
                         <option value="Second">Second Choice</option>
