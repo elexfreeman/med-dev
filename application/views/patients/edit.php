@@ -175,7 +175,7 @@
         </div>
 
         <div class="from-tab">
-            <div class="w-clearfix"><strong>Документ:</strong><?php echo $patient->patient_doc->doc_type; ?>
+            <div class="w-clearfix"><strong>Документ: </strong><?php echo $patient->patient_doc->doc_type; ?>
                 <?php echo $patient->patient_doc->doc_series; ?> <?php echo $patient->patient_doc->doc_number; ?><span class="form-plus">+</span>
             </div>
         </div>
