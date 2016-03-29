@@ -103,7 +103,9 @@ class Patient_model extends CI_Model {
         $this->patient->sex  = $_POST['sex'];
         $this->patient->birthday     = date( 'Y-m-d', strtotime($_POST['birthday']) );
         $this->db->update('patient', $this->patient);
-
+        $this->db->reset_query();
+        $this->patient = null;
+        $this->patient = new stdClass;
 
     }
 
