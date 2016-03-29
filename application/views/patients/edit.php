@@ -214,8 +214,10 @@
                            name="doc_number"  data-name="doc_number" class="w-input form-text-field">
                 </div>
                 <div class="w-col w-col-3">
-                    <label for="house-7" class="form-label">Дата выдачи:</label>
-                    <input id="house-7" type="text" name="house-7"  data-name="House 7" class="w-input form-text-field">
+                    <label for="doc_date" class="form-label">Дата выдачи:</label>
+                    <input id="doc_date" type="text"
+                           value="<?php echo $patient->patient_doc->doc_date; ?>"
+                           name="doc_date"  data-name="doc_date" class="w-input form-text-field hasDatepicker">
                 </div>
             </div>
             <div class="w-row">
