@@ -39,7 +39,7 @@ class Patient_model extends CI_Model {
         /*Список типов документов*/
         $this->load->model('reference_model');
         $patient->doc_type=$this->reference_model->Info('doc_type');
-        $patient->doc_type=array();
+
         foreach($patient->doc_type as $i=>$doc)
         {
             $patient->doc_type[$i]=false;
