@@ -46,9 +46,6 @@ class Patient_model extends CI_Model {
             $patient->doc_type[]=$doc;
         }
 
-
-
-
         return $patient;
     }
 
