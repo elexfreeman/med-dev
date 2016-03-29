@@ -25,7 +25,7 @@
             <tr>
                 <td><?=$patient['id']?></td>
                 <td>
-                    <img src="/images/icons/<?php if($patient['sex']==0)
+                    <img src="/images/icons/<?php if($patient['sex']==1)
                         echo 'human-512.png'; else echo 'woman-512.png';
                     ?>" class="table-icon">
                 </td>
