@@ -71,7 +71,7 @@
                         <!--Menu list item-->
                         <li class="active-link">
                             <a href="index.html">
-                                <i class="fa fa-dashboard"></i>
+                                <i class="fa fa-wheelchair"></i>
 						                    <span class="menu-title">
 												<strong>Пациенты</strong>
 												<!-- <span class="label label-success pull-right">Top</span> -->
@@ -81,7 +81,7 @@
   <!--Menu list item-->
                         <li class="active-link">
                             <a href="index.html">
-                                <i class="fa fa-dashboard"></i>
+                                <i class="fa fa-heartbeat"></i>
 						                    <span class="menu-title">
 												<strong>Обращения</strong>
 												<!-- <span class="label label-success pull-right">Top</span> -->
