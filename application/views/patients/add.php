@@ -82,14 +82,17 @@
                                             <input type="text" class="form-control" name="birthday" >
                                         </div>
                                 </div>
-                                <div class="radio">
+                                <div class="col-sm-6">
+                                    <div class="radio">
 
-                                    <!-- Inline radio buttons -->
-                                    <label class="form-radio form-normal form-text"><input type="radio" checked name="sex"> Мужчина</label>
-                                    <label class="form-radio form-normal form-text"><input type="radio" name="sex"> Женщина</label>
+                                        <!-- Inline radio buttons -->
+                                        <label class="form-radio form-normal form-text"><input type="radio" checked name="sex"> Мужчина</label>
+                                        <label class="form-radio form-normal form-text"><input type="radio" name="sex"> Женщина</label>
 
 
+                                    </div>
                                 </div>
+
                             </div>
                         </div>
                         <div class="panel-footer text-right">
