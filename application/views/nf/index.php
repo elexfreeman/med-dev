@@ -42,7 +42,7 @@
 
 
     <!--Demo script [ DEMONSTRATION ]-->
-    <link href="css/nf/nifty-demo.min.css" rel="stylesheet">
+    <link href="/css/nf/nifty-demo.min.css" rel="stylesheet">
 
 
 
@@ -52,7 +52,7 @@
 
     <!--Page Load Progress Bar [ OPTIONAL ]-->
     <link href="/css/nf/pace.min.css" rel="stylesheet">
-    <script src="/css/nf/pace.min.js"></script>
+    <script src="/js/nf/pace.min.js"></script>
 
 
 
