@@ -10,7 +10,7 @@
         <div class="cls-brand">
             <a class="box-inline" href="index.html">
                 <!-- <img alt="Nifty Admin" src="img/logo.png" class="brand-icon"> -->
-                <span class="brand-title">Система учета заявок <span class="text-thin">Вход</span></span>
+                <span class="brand-title">Система учета заявок</span>
             </a>
         </div>
     </div>

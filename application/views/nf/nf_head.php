@@ -107,4 +107,4 @@
 <!--You may remove all ID or Class names which contain "demo-", they are only used for demonstration. -->
 
 <body>
-<div id="container" class="effect mainnav-lg">
+<div id="container" class="effect mainnav-lg cls-container">
