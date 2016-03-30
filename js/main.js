@@ -14,23 +14,12 @@ function  FooterHeight(){
 $(function() {
 
     setTimeout(function() {
-        FooterHeight();
+
     },100);
 
-    /*Измение пола пациента в форме*/
-    $( "input[name='sex']" ).change(function() {
-        // Check input( $( this ).val() ) for validity here
-        patient.ChangeSex();
 
-    });
 
-    $('.hasDatepicker').datetimepicker({
-        format:'d.m.Y',
-        lang:'ru',
-        timepicker:false,
-        closeOnDateSelect:true,
-
-    });
+    $('.date').datepicker({autoclose:true});
 });
 
 
