@@ -562,6 +562,13 @@
                 </div>
             </div>
 
+            <div class="panel">
+                    <div class="panel-body  text-right">
+
+
+                        <button class="btn btn-primary">Send message</button>
+                    </div>
+            </div>
 
             </form>
         </div>
