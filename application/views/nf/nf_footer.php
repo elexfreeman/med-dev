@@ -73,6 +73,7 @@
 
 <!--Form Component [ SAMPLE ]-->
 <script src="/js/nf/form-component.js"></script>
+<script src="/js/main.js"></script>
 
 
 
