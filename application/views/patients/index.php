@@ -51,9 +51,13 @@ div class="boxed">
                             <th>Дата рождения</th>
 
                             <th colspan="2">
-                                <a href="/patients/add">
-                                    <i class="fa fa-plus"></i>Добавить
-                                </a>
+                                <div class="toolbar">
+                                    <div id="demo-custom-toolbar" class="table-toolbar-left">
+                                        <a href="/patients/add"
+                                           class="btn btn-success  btn-labeled fa fa-plus">Добавить</a>
+                                    </div>
+                                </div>
+
                             </th>
                         </tr>
                         <?php
@@ -74,7 +78,7 @@ div class="boxed">
                                 <td>
                                     <div class="toolbar">
                                         <div id="demo-custom-toolbar" class="table-toolbar-left">
-                                            <a href="/patients/edit/<?=$patient['id']?>" id="demo-dt-delete-btn"
+                                            <a href="/patients/edit/<?=$patient['id']?>"
                                                class="btn btn-primary  btn-labeled fa fa-edit">Изменить</a>
                                         </div>
                                     </div>
