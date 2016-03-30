@@ -67,14 +67,14 @@ class Mainpage extends CI_Controller {
         {
             /*иначе подгружаем интерфейс админа*/
             /*todo подумать об инетрефейсе админа*/
-            /*Заголовок общтй для всех*/
-            $this->load->view('head',$this->data);
-            /*навбар*/
-            $this->load->view('navbar/admin_navbar',$this->data);
+            $this->load->view('nf/nf_head',$this->data);
             /*шаблон страницы*/
             $this->load->view('mainpage/tpl_mainpage');
-            /*футер общий для всех*/
-            $this->load->view('footer');
+
+            $this->load->view('navbar/nf_admin',$this->data);
+
+            $this->load->view('nf/nf_footer',$this->data);
+
 
         }
 	}
