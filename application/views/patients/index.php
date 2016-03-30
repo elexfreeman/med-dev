@@ -52,7 +52,7 @@ div class="boxed">
 
                             <th colspan="2">
                                 <a href="/patients/add">
-                                    Добавить
+                                    <i class="fa fa-plus"></i>Добавить
                                 </a>
                             </th>
                         </tr>
@@ -70,7 +70,7 @@ div class="boxed">
                                 <td><?php echo date( 'm.d.Y', strtotime($patient['birthday']) );?></td>
                                 <td>
                                     <a class="tabletdlink" href="/patients/edit/<?=$patient['id']?>">
-                                        Изменить<img src="/images/icons/document-edit.png" class="img-md">
+                                        <i class="fa fa-edit"></i>
                                     </a>
                                 </td>
                                 <td>Удалить<img src="/images/icons/trash-can.png" class="img-md"></td>
