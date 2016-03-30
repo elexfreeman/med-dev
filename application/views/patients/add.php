@@ -80,8 +80,14 @@
                                         <div class="form-group date">
                                             <label class="control-label">Дата рождения</label>
                                             <input type="text" class="form-control" name="birthday" >
-                                            <span class="input-group-addon"><i class="fa fa-calendar fa-lg"></i></span>
                                         </div>
+                                </div>
+                                <div class="radio">
+
+                                    <!-- Inline radio buttons -->
+                                    <label class="form-radio form-normal form-text"><input type="radio" checked="" name="def-w-label"> Option 1 (pre-checked)</label>
+                                    <label class="form-radio form-normal form-text"><input type="radio" name="def-w-label"> Option 2</label>
+                                    <label class="form-radio form-normal form-text active"><input type="radio" name="def-w-label"> Option 3</label>
 
                                 </div>
                             </div>
