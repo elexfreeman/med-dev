@@ -126,7 +126,20 @@
                                             <!-- Default choosen -->
                                             <!--===================================================-->
                                             <select data-placeholder="Выберите из списка" id="demo-chosen-select" tabindex="2" class="form-control">
-                                                <option value="">Select one...</option>
+                                                <option value="">Выберите из списка...</option>
+                                                <option value="First">First Choice</option>
+                                                <option value="Second">Second Choice</option>
+                                                <option value="Third">Third Choice</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="form-group">
+                                            <label class="control-label">Область</label>
+                                            <!-- Default choosen -->
+                                            <!--===================================================-->
+                                            <select data-placeholder="Выберите из списка" id="demo-chosen-select" tabindex="2" class="form-control">
+                                                <option value="">Выберите из списка...</option>
                                                 <option value="First">First Choice</option>
                                                 <option value="Second">Second Choice</option>
                                                 <option value="Third">Third Choice</option>
