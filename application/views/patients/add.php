@@ -86,10 +86,11 @@
                                 <div class="col-sm-6">
                                     <div class="radio">
                                         <!-- Inline radio buttons -->
-                                        <label class="form-radio form-normal form-text"><input type="radio" checked
-                                                                                               name="sex">
+                                        <label class="form-radio form-normal form-text">
+                                            <input type="radio" checked name="sex" value="1">
                                             Мужчина</label>
-                                        <label class="form-radio form-normal form-text"><input type="radio" name="sex">
+                                        <label class="form-radio form-normal form-text">
+                                            <input type="radio" name="sex" value="2">
                                             Женщина</label>
                                     </div>
                                 </div>
