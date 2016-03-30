@@ -62,11 +62,9 @@ div class="boxed">
                             ?>
                             <tr>
                                 <td><?=$patient['id']?></td>
-                                <td>
-                                    <img src="/images/icons/<?php if($patient['sex']==1)
-                                        echo 'human-512.png'; else echo 'woman-512.png';
-                                    ?>" class="img-md">
-                                </td>
+                                <td><?php if($patient['sex']==1)
+                                        echo '<i class="fa fa-male"></i>'; else echo '<i class="fa fa-female"></i>';
+                                    ?></td>
                                 <td><a class="tabletdlink" href="/patients/edit/<?=$patient['id']?>"><?=$patient['surname']?> <?=$patient['name']?> <?=$patient['secname']?></a></td>
 
                                 <td><?php echo date( 'm.d.Y', strtotime($patient['birthday']) );?></td>
