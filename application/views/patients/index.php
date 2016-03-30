@@ -73,9 +73,11 @@ div class="boxed">
                                         <i class="fa fa-edit"></i>
                                     </a>
                                 </td>
-                                <td><div class="toolbar"><div id="demo-custom-toolbar" class="table-toolbar-left">
-                                            <button id="demo-dt-delete-btn" class="btn btn-danger btn-labeled fa fa-times">Delete</button>
-                                        </div></div>
+                                <td><div class="toolbar">
+                                        <div id="demo-custom-toolbar" class="table-toolbar-left">
+                                            <a id="demo-dt-delete-btn" class="btn btn-danger btn-labeled fa fa-times">Удалить</a>
+                                        </div>
+                                    </div>
                                 </td>
                             </tr>
                             <?php
