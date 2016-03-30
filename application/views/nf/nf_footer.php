@@ -71,8 +71,9 @@
 <script src="/js/nf/nifty-demo.min.js"></script>
 
 
-<!--Form Component [ SAMPLE ]-->
+<!--Form Component [ SAMPLE ]
 <script src="/js/nf/form-component.js"></script>
+-->
 <script type="text/javascript" src="/js/jquery.datetimepicker.js"></script>
 <script src="/js/main.js"></script>
 
