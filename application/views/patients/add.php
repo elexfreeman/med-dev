@@ -292,19 +292,18 @@
                             <div class="row">
                                 <div class="col-sm-4">
                                     <div class="form-group">
-                                        <label class="control-label">Почтовый индекс</label>
-                                        <input type="text" name="POST_INDEX" value="<?php echo set_value('surname'); ?>"
-                                               class="form-control <?php if (form_error('surname') != '') echo 'has-error'; ?>"
-                                               name="surname">
+                                        <label class="control-label">tfoms_code</label>
+                                        <input type="text" name="tfoms_code" value="<?php echo set_value('tfoms_code'); ?>"
+                                               class="form-control <?php if (form_error('tfoms_code') != '') echo 'has-error'; ?>">
 
                                     </div>
                                 </div>
                                 <div class="col-sm-4">
                                     <div class="form-group">
-                                        <label class="control-label">Регион</label>
+                                        <label class="control-label">insurer_type</label>
                                         <!-- Default choosen -->
                                         <!--===================================================-->
-                                        <select data-placeholder="Выберите из списка" tabindex="2" class="form-control">
+                                        <select name="insurer_type" data-placeholder="Выберите из списка" tabindex="2" class="form-control">
                                             <option value="">Выберите из списка...</option>
                                             <option value="First">First Choice</option>
                                             <option value="Second">Second Choice</option>
@@ -314,10 +313,10 @@
                                 </div>
                                 <div class="col-sm-4">
                                     <div class="form-group">
-                                        <label class="control-label">Область</label>
+                                        <label class="control-label">polis_type</label>
                                         <!-- Default choosen -->
                                         <!--===================================================-->
-                                        <select data-placeholder="Выберите из списка" tabindex="2" class="form-control">
+                                        <select name="polis_type" data-placeholder="Выберите из списка" tabindex="2" class="form-control">
                                             <option value="">Выберите из списка...</option>
                                             <option value="First">First Choice</option>
                                             <option value="Second">Second Choice</option>
