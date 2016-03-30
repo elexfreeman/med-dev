@@ -56,23 +56,23 @@
   <div class="cls-content-sm panel">
     <div class="panel-body">
       <p class="pad-btm">Войдите в свой акаунт</p>
-      <form action="index.html">
+      <?php echo form_open("auth/login");?>
         <div class="form-group">
           <div class="input-group">
             <div class="input-group-addon"><i class="fa fa-user"></i></div>
-            <input type="text" class="form-control" placeholder="Ваш логин">
+            <?php echo form_input($identity);?>
           </div>
         </div>
         <div class="form-group">
           <div class="input-group">
             <div class="input-group-addon"><i class="fa fa-asterisk"></i></div>
-            <input type="password" class="form-control" placeholder="Ваш пароль">
+            <?php echo form_input($password);?>
           </div>
         </div>
         <div class="row">
           <div class="col-xs-8 text-left checkbox">
             <label class="form-checkbox form-icon">
-              <input type="checkbox"> Запомнить меня
+              <input type="checkbox" name="remember" value="1" id="remember"> Запомнить меня
             </label>
           </div>
           <div class="col-xs-4">
@@ -85,7 +85,8 @@
         <button class="btn btn-primary btn-lg btn-block" type="button">
           Подать заявку на использование
         </button>
-      </form>
+
+      <?php echo form_close();?>
     </div>
   </div>
   <div class="pad-ver">
