@@ -54,6 +54,7 @@
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <label class="control-label">Фамилия</label>
+                                        <input type="text" name="surname" value="<?php echo set_value('surname'); ?>"  class="form-control <?php if(form_error('surname')!='') echo 'has-error'; ?>" name="surname">
                                         <input id="surname" type="text"
                                                value="<?php echo set_value('surname'); ?>"
                                                placeholder="Фамилия" name="surname"
@@ -64,7 +65,7 @@
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <label class="control-label">Имя</label>
-                                        <input type="text" class="form-control <?php if(form_error('name')!='') echo 'has-error'; ?>" name="name">
+                                        <input type="text" value="<?php echo set_value('name'); ?>" class="form-control <?php if(form_error('name')!='') echo 'has-error'; ?>" name="name">
 
 
                                     </div>
@@ -74,7 +75,7 @@
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <label class="control-label">Отчество</label>
-                                        <input type="text" class="form-control <?php if(form_error('secname')!='') echo 'has-error'; ?>" name="secname">
+                                        <input type="text"  value="<?php echo set_value('secname'); ?>" class="form-control <?php if(form_error('secname')!='') echo 'has-error'; ?>" name="secname">
 
 
                                     </div>
