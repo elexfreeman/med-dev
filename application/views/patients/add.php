@@ -43,7 +43,7 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="panel">
-                            <div class="panel-heading">
+                            <div class="panel-heading bg-primary">
                                 <h3 class="panel-title">Пациент:</h3>
                             </div>
                                 <div class="panel-body">
