@@ -17,7 +17,7 @@ $(function() {
 
     },100);
 
-
+console.info(1);
 
     $('.hasDatepicker').datetimepicker({
         format:'d.m.Y',
