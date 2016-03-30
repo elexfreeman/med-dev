@@ -93,9 +93,6 @@
 
                                     </div>
                                 </div>
-                                <div class="panel-footer text-right">
-                                    <button class="btn btn-info" type="submit">Submit</button>
-                                </div>
 
                             <!--===================================================-->
                             <!--End Block Styled Form -->
