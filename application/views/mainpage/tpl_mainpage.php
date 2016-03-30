@@ -57,7 +57,7 @@
                     <div class="panel media pad-all">
                         <div class="media-left">
 									<span class="icon-wrap icon-wrap-sm icon-circle bg-success">
-									<i class="fa fa-user fa-2x"></i>
+									<i class="fa fa-th fa-2x"></i>
 									</span>
                         </div>
                         <div class="media-body">
@@ -75,7 +75,7 @@
                 <div class="panel media pad-all">
                     <div class="media-left">
 									<span class="icon-wrap icon-wrap-sm icon-circle bg-info">
-									<i class="fa fa-shopping-cart fa-2x"></i>
+									<i class="fa fa-th fa-2x"></i>
 									</span>
                     </div>
 
@@ -94,7 +94,7 @@
                 <div class="panel media pad-all">
                     <div class="media-left">
 									<span class="icon-wrap icon-wrap-sm icon-circle bg-warning">
-									<i class="fa fa-comment fa-2x"></i>
+									<i class="fa fa-wheelchair fa-2x"></i>
 									</span>
                     </div>
 
@@ -113,7 +113,7 @@
                 <div class="panel media pad-all">
                     <div class="media-left">
 									<span class="icon-wrap icon-wrap-sm icon-circle bg-danger">
-									<i class="fa fa-dollar fa-2x"></i>
+									<i class="fa fa-heartbeat fa-2x"></i>
 									</span>
                     </div>
 
