@@ -79,10 +79,11 @@
                                 <div class="col-sm-6">
                                     <div id="demo-dp-component">
                                         <div class="input-group date">
+                                            <label class="control-label">Дата рождения</label>
                                             <input type="text" class="form-control">
                                             <span class="input-group-addon"><i class="fa fa-calendar fa-lg"></i></span>
                                         </div>
-                                        <small class="text-muted">Auto close on select</small>
+                                        <small class="text-muted">Закроется если выбрать</small>
                                     </div>
 
                                 </div>
