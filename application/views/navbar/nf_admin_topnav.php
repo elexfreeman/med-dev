@@ -326,7 +326,7 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <i class="fa fa-question-circle fa-fw fa-lg"></i> Help
+                                    <i class="fa fa-question-circle fa-fw fa-lg"></i> Справка
                                 </a>
                             </li>
 
