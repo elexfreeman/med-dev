@@ -43,7 +43,7 @@ div class="boxed">
             <div class="panel-body">
                 <div class="table-responsive">
                     <table class="table table-striped">
-                        <tr class="table-head bg-primary">
+                        <tr class="table-head ">
                             <th>ID</th>
                             <th>Пол</th>
                             <th>ФИО</th>
