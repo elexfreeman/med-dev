@@ -63,12 +63,8 @@ div class="boxed">
                             <tr>
                                 <td><?=$patient['id']?></td>
                                 <td>
-                                    <div class="toolbar">
-                                        <div id="demo-custom-toolbar" class="table-toolbar-left">
-                                            <span  id="demo-dt-delete-btn"
-                                               class="btn btn-primary  btn-labeled fa fa-<?php if($patient['sex']==1) echo 'male'; else echo 'female'; ?>"></span>
-                                        </div>
-                                    </div>
+                                    <span class="icon-wrap icon-circle"><i class="fa fa-<?php if($patient['sex']==1) echo 'male'; else echo 'female'; ?>"></i></span>
+
                                 </td>
                                 <td><a class="tabletdlink" href="/patients/edit/<?=$patient['id']?>"><?=$patient['surname']?> <?=$patient['name']?> <?=$patient['secname']?></a></td>
 
