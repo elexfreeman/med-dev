@@ -185,7 +185,7 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="panel">
-                            <div class="panel-heading">
+                            <div class="panel-heading bg-gray-dark">
                                 <h3 class="panel-title">Документ:</h3>
                             </div>
 
@@ -264,7 +264,7 @@
                     </div>
                     <div class="col-sm-6">
                         <div class="panel">
-                            <div class="panel-heading">
+                            <div class="panel-heading bg-pink">
                                 <h3 class="panel-title">Страхование:</h3>
                             </div>
 
