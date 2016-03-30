@@ -74,9 +74,8 @@
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <label class="control-label">Отчество</label>
-                                        <input id="secname" type="text"
-                                               placeholder="Отчество" name="secname"  data-name="secname"
-                                               class="from-control <?php if(form_error('secname')!='') echo 'form-error-input'; ?>">
+                                        <input type="text" class="form-control <?php if(form_error('secname')!='') echo 'has-error'; ?>" name="secname">
+
 
                                     </div>
                                 </div>
