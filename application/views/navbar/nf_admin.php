@@ -36,14 +36,14 @@
                     <ul id="mainnav-menu" class="list-group">
 
                         <!--Category name-->
-                        <li class="list-header">Navigation</li>
+                        <li class="list-header">Навигация</li>
 
                         <!--Menu list item-->
                         <li class="active-link">
                             <a href="index.html">
                                 <i class="fa fa-dashboard"></i>
 						                    <span class="menu-title">
-												<strong>Dashboard</strong>
+												<strong>Рабочий стол</strong>
 												<span class="label label-success pull-right">Top</span>
 											</span>
                             </a>
