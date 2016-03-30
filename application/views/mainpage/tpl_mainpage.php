@@ -8,80 +8,90 @@
  */
 
 ?>
+<div class="boxed">
 
-<div class="row">
-    <div class="col-md-6 col-lg-3">
+    <!--CONTENT CONTAINER-->
+    <!--===================================================-->
+    <div id="content-container">
 
-        <!--Registered User-->
+        <div class="row">
+            <div class="col-md-6 col-lg-3">
 
-        <a href="/f89">
-        <div class="panel media pad-all">
-            <div class="media-left">
+                <!--Registered User-->
+
+                <a href="/f89">
+                    <div class="panel media pad-all">
+                        <div class="media-left">
 									<span class="icon-wrap icon-wrap-sm icon-circle bg-success">
 									<i class="fa fa-user fa-2x"></i>
 									</span>
-            </div>
-            <div class="media-body">
-                <p class="text-2x mar-no text-thin">241</p>
-                <p class="text-muted mar-no">Ф89</p>
-            </div>
-        </div>
-        </a>
+                        </div>
+                        <div class="media-body">
+                            <p class="text-2x mar-no text-thin">241</p>
 
-    </div>
-    <div class="col-md-6 col-lg-3">
+                            <p class="text-muted mar-no">Ф89</p>
+                        </div>
+                    </div>
+                </a>
 
-        <!--New Order-->
-        <div class="panel media pad-all">
-            <div class="media-left">
+            </div>
+            <div class="col-md-6 col-lg-3">
+
+                <!--New Order-->
+                <div class="panel media pad-all">
+                    <div class="media-left">
 									<span class="icon-wrap icon-wrap-sm icon-circle bg-info">
 									<i class="fa fa-shopping-cart fa-2x"></i>
 									</span>
+                    </div>
+
+                    <div class="media-body">
+                        <p class="text-2x mar-no text-thin">543</p>
+
+                        <p class="text-muted mar-no">New Order</p>
+                    </div>
+                </div>
+
             </div>
+            <div class="col-md-6 col-lg-3">
 
-            <div class="media-body">
-                <p class="text-2x mar-no text-thin">543</p>
-                <p class="text-muted mar-no">New Order</p>
-            </div>
-        </div>
-
-    </div>
-    <div class="col-md-6 col-lg-3">
-
-        <!--Comments-->
-        <div class="panel media pad-all">
-            <div class="media-left">
+                <!--Comments-->
+                <div class="panel media pad-all">
+                    <div class="media-left">
 									<span class="icon-wrap icon-wrap-sm icon-circle bg-warning">
 									<i class="fa fa-comment fa-2x"></i>
 									</span>
+                    </div>
+
+                    <div class="media-body">
+                        <p class="text-2x mar-no text-thin">34</p>
+
+                        <p class="text-muted mar-no">Comments</p>
+                    </div>
+                </div>
+
             </div>
+            <div class="col-md-6 col-lg-3">
 
-            <div class="media-body">
-                <p class="text-2x mar-no text-thin">34</p>
-                <p class="text-muted mar-no">Comments</p>
-            </div>
-        </div>
-
-    </div>
-    <div class="col-md-6 col-lg-3">
-
-        <!--Sales-->
-        <div class="panel media pad-all">
-            <div class="media-left">
+                <!--Sales-->
+                <div class="panel media pad-all">
+                    <div class="media-left">
 									<span class="icon-wrap icon-wrap-sm icon-circle bg-danger">
 									<i class="fa fa-dollar fa-2x"></i>
 									</span>
-            </div>
+                    </div>
 
-            <div class="media-body">
-                <p class="text-2x mar-no text-thin">654</p>
-                <p class="text-muted mar-no">Sales</p>
+                    <div class="media-body">
+                        <p class="text-2x mar-no text-thin">654</p>
+
+                        <p class="text-muted mar-no">Sales</p>
+                    </div>
+                </div>
+
             </div>
         </div>
-
     </div>
 </div>
-
 
 <div class="w-container">
     <h1 class="body-h1"><?php echo $text_h1;?> <span class="body-h1-span">(<?php echo $text_description;?>)</span>
