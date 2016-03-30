@@ -566,7 +566,7 @@
                     <div class="panel-body  text-right">
 
 
-                        <button class="btn btn-primary">Send message</button>
+                        <button class="btn btn-primary" type="submit">Добавить</button>
                     </div>
             </div>
 
