@@ -39,7 +39,70 @@
         <!--Page content-->
         <!--===================================================-->
         <div id="page-content">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Block styled form</h3>
+                    </div>
 
+                    <!--Block Styled Form -->
+                    <!--===================================================-->
+                    <form>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label class="control-label">Фамилия</label>
+                                        <input id="surname" type="text"
+                                               value="<?php echo set_value('surname'); ?>"
+                                               placeholder="Фамилия" name="surname"
+                                               class="from-control <?php if(form_error('surname')!='') echo 'form-error-input'; ?>">
+
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label class="control-label">Имя</label>
+                                        <input id="name" type="text"
+                                               placeholder="Имя" name="name"
+                                               class="from-control <?php if(form_error('name')!='') echo 'form-error-input'; ?>">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label class="control-label">Отчество</label>
+                                        <input id="secname" type="text"
+                                               placeholder="Отчество" name="secname"  data-name="secname"
+                                               class="from-control <?php if(form_error('secname')!='') echo 'form-error-input'; ?>">
+
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="input-group date">
+                                        <input  name="birthday"  type="text" class="form-control">
+                                        <span class="input-group-addon"><i class="fa fa-calendar fa-lg"></i></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label">Дата рождения</label>
+                                        <input type="url" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-footer text-right">
+                            <button class="btn btn-info" type="submit">Submit</button>
+                        </div>
+                    </form>
+                    <!--===================================================-->
+                    <!--End Block Styled Form -->
+
+                </div>
+            </div>
+        </div>
 
         </div>
     </div>
