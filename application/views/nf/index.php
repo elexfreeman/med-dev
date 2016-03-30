@@ -3417,11 +3417,11 @@
 
 
 <!--Sparkline [ OPTIONAL ]-->
-<script src="/js/nf//jquery.sparkline.min.js"></script>
+<script src="/js/nf/jquery.sparkline.min.js"></script>
 
 
 <!--Skycons [ OPTIONAL ]-->
-<script src="plugins/skycons/skycons.min.js"></script>
+<script src="/js/nf/skycons.min.js"></script>
 
 
 <!--Switchery [ OPTIONAL ]-->
