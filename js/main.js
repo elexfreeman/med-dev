@@ -19,7 +19,7 @@ $(function() {
 
 
 
-    $('#birthday').datepicker({autoclose:true});
+    $('#birthday input').datepicker({autoclose:true});
 });
 
 
