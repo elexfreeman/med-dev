@@ -309,19 +309,19 @@
                         <ul class="head-list">
                             <li>
                                 <a href="#">
-                                    <i class="fa fa-user fa-fw fa-lg"></i> Profile
+                                    <i class="fa fa-user fa-fw fa-lg"></i> Мой аккаунт
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
                                     <span class="badge badge-danger pull-right">9</span>
-                                    <i class="fa fa-envelope fa-fw fa-lg"></i> Messages
+                                    <i class="fa fa-envelope fa-fw fa-lg"></i> Сообщения
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
                                     <span class="label label-success pull-right">New</span>
-                                    <i class="fa fa-gear fa-fw fa-lg"></i> Settings
+                                    <i class="fa fa-gear fa-fw fa-lg"></i> Настройки
                                 </a>
                             </li>
                             <li>
@@ -329,17 +329,13 @@
                                     <i class="fa fa-question-circle fa-fw fa-lg"></i> Help
                                 </a>
                             </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-lock fa-fw fa-lg"></i> Lock screen
-                                </a>
-                            </li>
+
                         </ul>
 
                         <!-- Dropdown footer -->
                         <div class="pad-all text-right">
-                            <a href="pages-login.html" class="btn btn-primary">
-                                <i class="fa fa-sign-out fa-fw"></i> Logout
+                            <a href="/auth/logout" class="btn btn-primary">
+                                <i class="fa fa-sign-out fa-fw"></i> Выход
                             </a>
                         </div>
                     </div>
