@@ -468,10 +468,10 @@
 
                                 <div class="col-sm-4">
                                     <div class="form-group">
-                                        <label class="control-label">small_status</label>
+                                        <label class="control-label">citizen_status</label>
                                         <!-- Default choosen -->
                                         <!--===================================================-->
-                                        <select name="small_status" data-placeholder="Выберите из списка" tabindex="2"
+                                        <select name="citizen_status" data-placeholder="Выберите из списка" tabindex="2"
                                                 class="form-control">
                                             <option value="">Выберите из списка...</option>
                                             <option value="First">First Choice</option>
@@ -483,10 +483,10 @@
 
                                 <div class="col-sm-4">
                                     <div class="form-group">
-                                        <label class="control-label">social_status</label>
+                                        <label class="control-label">citizen_category</label>
                                         <!-- Default choosen -->
                                         <!--===================================================-->
-                                        <select name="social_status" data-placeholder="Выберите из списка" tabindex="2"
+                                        <select name="citizen_category" data-placeholder="Выберите из списка" tabindex="2"
                                                 class="form-control">
                                             <option value="">Выберите из списка...</option>
                                             <option value="First">First Choice</option>
