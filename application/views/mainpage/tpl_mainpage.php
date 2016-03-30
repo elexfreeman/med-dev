@@ -67,11 +67,11 @@
                         </div>
                     </div>
                 </a>
-
             </div>
+
             <div class="col-md-6 col-lg-3">
 
-                <!--New Order-->
+                <a href="/f30">
                 <div class="panel media pad-all">
                     <div class="media-left">
 									<span class="icon-wrap icon-wrap-sm icon-circle bg-info">
@@ -85,11 +85,12 @@
                         <p class="text-muted mar-no">Описание</p>
                     </div>
                 </div>
+                <a/>
 
             </div>
             <div class="col-md-6 col-lg-3">
 
-                <!--Comments-->
+                <a href="/patients">
                 <div class="panel media pad-all">
                     <div class="media-left">
 									<span class="icon-wrap icon-wrap-sm icon-circle bg-warning">
@@ -103,11 +104,12 @@
                         <p class="text-muted mar-no">Список пациентов</p>
                     </div>
                 </div>
+                </a>
 
             </div>
             <div class="col-md-6 col-lg-3">
 
-                <!--Sales-->
+                <a href="/consults">
                 <div class="panel media pad-all">
                     <div class="media-left">
 									<span class="icon-wrap icon-wrap-sm icon-circle bg-danger">
@@ -121,7 +123,7 @@
                         <p class="text-muted mar-no">Описание</p>
                     </div>
                 </div>
-
+                </a>
             </div>
         </div>
         </div>
