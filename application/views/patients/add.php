@@ -44,12 +44,8 @@
                     <div class="col-sm-6">
                         <div class="panel">
                             <div class="panel-heading">
-                                <h3 class="panel-title">Пациент</h3>
+                                <h3 class="panel-title">Пациент:</h3>
                             </div>
-
-                            <!--Block Styled Form -->
-                            <!--===================================================-->
-
                                 <div class="panel-body">
                                     <div class="row">
                                         <div class="col-sm-6">
@@ -93,10 +89,6 @@
 
                                     </div>
                                 </div>
-
-                            <!--===================================================-->
-                            <!--End Block Styled Form -->
-
                         </div>
                     </div>
                     <div class="col-sm-6">
@@ -273,7 +265,177 @@
                     <div class="col-sm-6">
                         <div class="panel">
                             <div class="panel-heading">
-                                <h3 class="panel-title">Полный адрес:</strong> 612961, Самара ул. Садовая д. 78, кв 4 </h3>
+                                <h3 class="panel-title">Страхование:</h3>
+                            </div>
+
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="form-group">
+                                            <label class="control-label">Почтовый индекс</label>
+                                            <input type="text" name="POST_INDEX" value="<?php echo set_value('surname'); ?>"  class="form-control <?php if(form_error('surname')!='') echo 'has-error'; ?>" name="surname">
+
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="form-group">
+                                            <label class="control-label">Регион</label>
+                                            <!-- Default choosen -->
+                                            <!--===================================================-->
+                                            <select data-placeholder="Выберите из списка" id="demo-chosen-select" tabindex="2" class="form-control">
+                                                <option value="">Выберите из списка...</option>
+                                                <option value="First">First Choice</option>
+                                                <option value="Second">Second Choice</option>
+                                                <option value="Third">Third Choice</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="form-group">
+                                            <label class="control-label">Область</label>
+                                            <!-- Default choosen -->
+                                            <!--===================================================-->
+                                            <select data-placeholder="Выберите из списка" id="demo-chosen-select" tabindex="2" class="form-control">
+                                                <option value="">Выберите из списка...</option>
+                                                <option value="First">First Choice</option>
+                                                <option value="Second">Second Choice</option>
+                                                <option value="Third">Third Choice</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="form-group">
+                                            <label class="control-label">Город</label>
+                                            <!-- Default choosen -->
+                                            <!--===================================================-->
+                                            <select data-placeholder="Выберите из списка" id="demo-chosen-select" tabindex="2" class="form-control">
+                                                <option value="">Выберите из списка...</option>
+                                                <option value="First">First Choice</option>
+                                                <option value="Second">Second Choice</option>
+                                                <option value="Third">Third Choice</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-4">
+                                        <div class="form-group">
+                                            <label class="control-label">Улица</label>
+                                            <!-- Default choosen -->
+                                            <!--===================================================-->
+                                            <select data-placeholder="Выберите из списка" id="demo-chosen-select" tabindex="2" class="form-control">
+                                                <option value="">Выберите из списка...</option>
+                                                <option value="First">First Choice</option>
+                                                <option value="Second">Second Choice</option>
+                                                <option value="Third">Third Choice</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-2">
+                                        <div class="form-group">
+                                            <label class="control-label">Корпус</label>
+                                            <input type="text" name="POST_INDEX" value="<?php echo set_value('surname'); ?>"  class="form-control <?php if(form_error('surname')!='') echo 'has-error'; ?>" name="surname">
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-2">
+                                        <div class="form-group">
+                                            <label class="control-label">Дом</label>
+                                            <input type="text" name="POST_INDEX" value="<?php echo set_value('surname'); ?>"  class="form-control <?php if(form_error('surname')!='') echo 'has-error'; ?>" name="surname">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+ <div class="row">
+                    <div class="col-sm-6">
+                        <div class="panel">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Статус:</h3>
+                            </div>
+
+                            <!--Block Styled Form -->
+                            <!--===================================================-->
+
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="form-group">
+                                            <label class="control-label">Тип документа</label>
+                                            <!-- Default choosen -->
+                                            <!--===================================================-->
+                                            <select data-placeholder="Выберите из списка" id="demo-chosen-select" tabindex="2" class="form-control">
+                                                <option value="">Выберите из списка...</option>
+                                                <option value="First">First Choice</option>
+                                                <option value="Second">Second Choice</option>
+                                                <option value="Third">Third Choice</option>
+                                            </select>
+                                        </div>
+                                   </div>
+
+                                    <div class="col-sm-4">
+                                        <div class="form-group">
+                                            <label class="control-label">Серия</label>
+                                            <input type="text" name="doc_series" value="<?php echo set_value('doc_series'); ?>"  class="form-control <?php if(form_error('surname')!='') echo 'has-error'; ?>">
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-sm-4">
+                                        <div class="form-group">
+                                            <label class="control-label">Номер</label>
+                                            <input type="text" name="doc_number" value="<?php echo set_value('doc_number'); ?>" class="form-control <?php if(form_error('doc_number')!='') echo 'has-error'; ?>">
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="form-group date">
+                                            <label class="control-label">Дата выдачи</label>
+                                            <input type="text"  value="<?php echo set_value('doc_date'); ?>" class="form-control <?php if(form_error('doc_date')!='') echo 'has-error'; ?>">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-4">
+                                        <div class="form-group date">
+                                            <label class="control-label">Место выдачи</label>
+                                            <input type="text" class="form-control" name="doc_source"  value="<?php echo set_value('doc_source'); ?>">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-4">
+                                        <div class="form-group">
+                                            <label class="control-label">Гражданство</label>
+                                            <!-- Default choosen -->
+                                            <!--===================================================-->
+                                            <select name="citizenship" data-placeholder="Выберите из списка" id="demo-chosen-select" tabindex="2" class="form-control">
+                                                <option value="">Выберите из списка...</option>
+                                                <option value="First">First Choice</option>
+                                                <option value="Second">Second Choice</option>
+                                                <option value="Third">Third Choice</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <!--===================================================-->
+                            <!--End Block Styled Form -->
+
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="panel">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Работа:</h3>
                             </div>
 
                             <div class="panel-body">
