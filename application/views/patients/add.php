@@ -354,13 +354,32 @@
                             </div>
 
                             <div class="row">
-                                <div class="col-sm-4">
+                                <div class="col-sm-3">
                                     <div class="form-group">
-                                        <label class="control-label">Дом</label>
-                                        <input type="text" name="POST_INDEX" value="<?php echo set_value('surname'); ?>"
-                                               class="form-control <?php if (form_error('surname') != '') echo 'has-error'; ?>"
-                                               name="surname">
+                                        <label class="control-label">date_begin</label>
+                                        <input type="text" name="date_begin" value="<?php echo set_value('date_begin'); ?>"
+                                               class="form-control <?php if (form_error('date_begin') != '') echo 'has-error'; ?>" >
                                     </div>
+                                    <div class="col-sm-3">
+                                    <div class="form-group">
+                                        <label class="control-label">date_end</label>
+                                        <input type="text" name="date_end" value="<?php echo set_value('date_end'); ?>"
+                                               class="form-control <?php if (form_error('date_end') != '') echo 'has-error'; ?>" >
+                                    </div>
+                                    <div class="col-sm-3">
+                                    <div class="form-group">
+                                        <label class="control-label">mo_attache</label>
+                                        <input type="text" name="mo_attache" value="<?php echo set_value('mo_attache'); ?>"
+                                               class="form-control <?php if (form_error('mo_attache') != '') echo 'has-error'; ?>" >
+                                    </div>
+                                    <div class="col-sm-3">
+                                    <div class="form-group">
+                                        <label class="control-label">mo_date_attache</label>
+                                        <input type="text" name="mo_date_attache" value="<?php echo set_value('mo_date_attache'); ?>"
+                                               class="form-control <?php if (form_error('mo_date_attache') != '') echo 'has-error'; ?>" >
+                                    </div>
+
+
                                 </div>
                             </div>
                         </div>
