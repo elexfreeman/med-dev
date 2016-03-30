@@ -14,7 +14,8 @@
                 <div class="input-group custom-search-form">
                     <input type="text" class="form-control" placeholder="Поиск..">
 							<span class="input-group-btn">
-								<button class="text-muted" type="button"><i class="fa fa-search"></i></button>
+								<button class="text-muted" type="button">
+                                    <i class="fa fa-search"></i></button>
 							</span>
                 </div>
             </div>
@@ -28,7 +29,7 @@
         <ol class="breadcrumb">
             <li><a href="/">Рабочий стол</a></li>
             <li><a href="/patients">Пациенты</a></li>
-            <li><a href="/patients/add">Добавить</a></li>
+            <li><a href="/patients/add">Редактировать</a></li>
         </ol>
         <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
         <!--End breadcrumb-->
@@ -37,7 +38,7 @@
         <!--Page content-->
         <!--===================================================-->
         <div id="page-content">
-            <?php echo form_open('patients/add', ['class' => '', 'id' => 'patient_add']); ?>
+            <?php echo form_open('patients/edit/'.$patient->id,['class' => '', 'id' => 'patient_edit']); ?>
             <div class="row">
                 <div class="col-sm-6">
                     <div class="panel">
