@@ -82,22 +82,15 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
-                                    <div id="demo-dp-component">
+                                    <div class="form-group">
                                         <div class="input-group date">
+                                            <label class="control-label">Дата рождения</label>
                                             <input type="text" class="form-control">
                                             <span class="input-group-addon"><i class="fa fa-calendar fa-lg"></i></span>
                                         </div>
                                         <small class="text-muted">Auto close on select</small>
                                     </div>
 
-                                    <div class="input-group date">
-                                        <input  name="birthday"  type="text" class="form-control">
-                                        <span class="input-group-addon"><i class="fa fa-calendar fa-lg"></i></span>
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="control-label">Дата рождения</label>
-                                        <input type="url" class="form-control">
-                                    </div>
                                 </div>
                             </div>
                         </div>
