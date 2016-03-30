@@ -39,7 +39,7 @@ div class="boxed">
     <!--Page content-->
     <!--===================================================-->
     <div id="page-content">
-        <div class="row">
+        <div class="panel">
             <div class="panel-body">
                 <div class="table-responsive">
                     <table class="table table-striped">
