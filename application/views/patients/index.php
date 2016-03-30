@@ -72,7 +72,7 @@ div class="boxed">
                                     <div class="toolbar">
                                         <div id="demo-custom-toolbar" class="table-toolbar-left">
                                             <a href="/patients/edit/<?=$patient['id']?>" id="demo-dt-delete-btn"
-                                               class="btn btn-danger btn-labeled fa fa-edit">Удалить</a>
+                                               class="btn btn-danger btn-labeled fa fa-edit">Изменить</a>
                                         </div>
                                     </div>
 
