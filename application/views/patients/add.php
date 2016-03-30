@@ -77,15 +77,11 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
-                                    <p class="text-thin mar-btm">Дата рождения</p>
-                                    <div id="demo-dp-component">
-                                        <div class="input-group date">
-
-                                            <input type="text" class="form-control">
+                                        <div class="form-group date">
+                                            <label class="control-label">Дата рождения</label>
+                                            <input type="text" class="form-control" name="birthday" >
                                             <span class="input-group-addon"><i class="fa fa-calendar fa-lg"></i></span>
                                         </div>
-                                        <small class="text-muted">Закроется если выбрать</small>
-                                    </div>
 
                                 </div>
                             </div>
