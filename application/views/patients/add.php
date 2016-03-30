@@ -408,62 +408,10 @@
                             <div class="row">
                                 <div class="col-sm-4">
                                     <div class="form-group">
-                                        <label class="control-label">Тип документа</label>
+                                        <label class="control-label">family_status</label>
                                         <!-- Default choosen -->
                                         <!--===================================================-->
-                                        <select data-placeholder="Выберите из списка" tabindex="2" class="form-control">
-                                            <option value="">Выберите из списка...</option>
-                                            <option value="First">First Choice</option>
-                                            <option value="Second">Second Choice</option>
-                                            <option value="Third">Third Choice</option>
-                                        </select>
-                                    </div>
-                                </div>
-
-                                <div class="col-sm-4">
-                                    <div class="form-group">
-                                        <label class="control-label">Серия</label>
-                                        <input type="text" name="doc_series"
-                                               value="<?php echo set_value('doc_series'); ?>"
-                                               class="form-control <?php if (form_error('surname') != '') echo 'has-error'; ?>">
-                                    </div>
-                                </div>
-
-
-                                <div class="col-sm-4">
-                                    <div class="form-group">
-                                        <label class="control-label">Номер</label>
-                                        <input type="text" name="doc_number"
-                                               value="<?php echo set_value('doc_number'); ?>"
-                                               class="form-control <?php if (form_error('doc_number') != '') echo 'has-error'; ?>">
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="row">
-                                <div class="col-sm-4">
-                                    <div class="form-group date">
-                                        <label class="control-label">Дата выдачи</label>
-                                        <input type="text" value="<?php echo set_value('doc_date'); ?>"
-                                               class="form-control <?php if (form_error('doc_date') != '') echo 'has-error'; ?>">
-                                    </div>
-                                </div>
-
-                                <div class="col-sm-4">
-                                    <div class="form-group date">
-                                        <label class="control-label">Место выдачи</label>
-                                        <input type="text" class="form-control" name="doc_source"
-                                               value="<?php echo set_value('doc_source'); ?>">
-                                    </div>
-                                </div>
-
-                                <div class="col-sm-4">
-                                    <div class="form-group">
-                                        <label class="control-label">Гражданство</label>
-                                        <!-- Default choosen -->
-                                        <!--===================================================-->
-                                        <select name="citizenship" data-placeholder="Выберите из списка" tabindex="2"
+                                        <select name="family_status" data-placeholder="Выберите из списка" tabindex="2"
                                                 class="form-control">
                                             <option value="">Выберите из списка...</option>
                                             <option value="First">First Choice</option>
@@ -473,7 +421,86 @@
                                     </div>
                                 </div>
 
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                        <label class="control-label">small_status</label>
+                                        <!-- Default choosen -->
+                                        <!--===================================================-->
+                                        <select name="small_status" data-placeholder="Выберите из списка" tabindex="2"
+                                                class="form-control">
+                                            <option value="">Выберите из списка...</option>
+                                            <option value="First">First Choice</option>
+                                            <option value="Second">Second Choice</option>
+                                            <option value="Third">Third Choice</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                        <label class="control-label">social_status</label>
+                                        <!-- Default choosen -->
+                                        <!--===================================================-->
+                                        <select name="social_status" data-placeholder="Выберите из списка" tabindex="2"
+                                                class="form-control">
+                                            <option value="">Выберите из списка...</option>
+                                            <option value="First">First Choice</option>
+                                            <option value="Second">Second Choice</option>
+                                            <option value="Third">Third Choice</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+
                             </div>
+
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                        <label class="control-label">is_goverment</label>
+                                        <!-- Default choosen -->
+                                        <!--===================================================-->
+                                        <label class="form-checkbox form-normal form-primary form-text">
+                                            <input name="is_goverment" value="1" type="checkbox"> Да
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                        <label class="control-label">small_status</label>
+                                        <!-- Default choosen -->
+                                        <!--===================================================-->
+                                        <select name="small_status" data-placeholder="Выберите из списка" tabindex="2"
+                                                class="form-control">
+                                            <option value="">Выберите из списка...</option>
+                                            <option value="First">First Choice</option>
+                                            <option value="Second">Second Choice</option>
+                                            <option value="Third">Third Choice</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                        <label class="control-label">social_status</label>
+                                        <!-- Default choosen -->
+                                        <!--===================================================-->
+                                        <select name="social_status" data-placeholder="Выберите из списка" tabindex="2"
+                                                class="form-control">
+                                            <option value="">Выберите из списка...</option>
+                                            <option value="First">First Choice</option>
+                                            <option value="Second">Second Choice</option>
+                                            <option value="Third">Third Choice</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+
                         </div>
 
                         <!--===================================================-->
