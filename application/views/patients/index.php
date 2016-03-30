@@ -69,11 +69,16 @@ div class="boxed">
 
                                 <td><?php echo date( 'm.d.Y', strtotime($patient['birthday']) );?></td>
                                 <td>
-                                    <a class="tabletdlink" href="/patients/edit/<?=$patient['id']?>">
-                                        <i class="fa fa-edit"></i>
-                                    </a>
+                                    <div class="toolbar">
+                                        <div id="demo-custom-toolbar" class="table-toolbar-left">
+                                            <a href="/patients/edit/<?=$patient['id']?>" id="demo-dt-delete-btn"
+                                               class="btn btn-danger btn-labeled fa fa-edit">Удалить</a>
+                                        </div>
+                                    </div>
+
                                 </td>
-                                <td><div class="toolbar">
+                                <td>
+                                    <div class="toolbar">
                                         <div id="demo-custom-toolbar" class="table-toolbar-left">
                                             <a id="demo-dt-delete-btn" class="btn btn-danger btn-labeled fa fa-times">Удалить</a>
                                         </div>
