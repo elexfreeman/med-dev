@@ -82,6 +82,14 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
+                                    <div id="demo-dp-component">
+                                        <div class="input-group date">
+                                            <input type="text" class="form-control">
+                                            <span class="input-group-addon"><i class="fa fa-calendar fa-lg"></i></span>
+                                        </div>
+                                        <small class="text-muted">Auto close on select</small>
+                                    </div>
+
                                     <div class="input-group date">
                                         <input  name="birthday"  type="text" class="form-control">
                                         <span class="input-group-addon"><i class="fa fa-calendar fa-lg"></i></span>
