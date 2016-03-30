@@ -25,13 +25,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 
-    <!--Animate.css [ OPTIONAL ]-->
-    <link href="/css/nf/animate.min.css" rel="stylesheet">
-
-
-    <!--Morris.js [ OPTIONAL ]-->
-    <link href="/css/nf/morris.min.css" rel="stylesheet">
-
 
     <!--Switchery [ OPTIONAL ]-->
     <link href="/css/nf/switchery.min.css" rel="stylesheet">
@@ -41,7 +34,36 @@
     <link href="/css/nf/bootstrap-select.min.css" rel="stylesheet">
 
 
-    <!--Demo script [ DEMONSTRATION ]-->
+    <!--Bootstrap Tags Input [ OPTIONAL ]-->
+    <link href="/css/nf/bootstrap-tagsinput.css" rel="stylesheet">
+
+
+    <!--Chosen [ OPTIONAL ]-->
+    <link href="/css/nf/chosen.min.css" rel="stylesheet">
+
+
+    <!--noUiSlider [ OPTIONAL ]-->
+    <link href="/css/nf/jquery.nouislider.min.css" rel="stylesheet">
+    <link href="/css/nf/jquery.nouislider.pips.min.css" rel="stylesheet">
+
+
+    <!--Bootstrap Timepicker [ OPTIONAL ]-->
+    <link href="/css/nf/bootstrap-timepicker.min.css" rel="stylesheet">
+
+
+    <!--Bootstrap Datepicker [ OPTIONAL ]-->
+    <link href="/css/nf/bootstrap-datepicker.css" rel="stylesheet">
+
+
+    <!--Dropzone [ OPTIONAL ]-->
+    <link href="/css/nf/dropzone.css" rel="stylesheet">
+
+
+    <!--Summernote [ OPTIONAL ]-->
+    <link href="/css/nf/summernote.min.css" rel="stylesheet">
+
+
+    <!--Demo [ DEMONSTRATION ]-->
     <link href="/css/nf/nifty-demo.min.css" rel="stylesheet">
 
 
@@ -4157,48 +4179,64 @@
 <!--=================================================-->
 
 <!--jQuery [ REQUIRED ]-->
-<script src="/js/nf/jquery-2.1.1.min.js"></script>
+<script src="js/jquery-2.1.1.min.js"></script>
 
 
 <!--BootstrapJS [ RECOMMENDED ]-->
-<script src="/js/nf/bootstrap.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
 
 <!--Fast Click [ OPTIONAL ]-->
-<script src="/js/nf/fastclick.min.js"></script>
+<script src="plugins/fast-click/fastclick.min.js"></script>
 
 
 <!--Nifty Admin [ RECOMMENDED ]-->
-<script src="/js/nf/nifty.min.js"></script>
-
-
-<!--Morris.js [ OPTIONAL ]-->
-<script src="/js/nf/morris.min.js"></script>
-<script src=/js/nf/raphael.min.js"></script>
-
-
-<!--Sparkline [ OPTIONAL ]-->
-<script src="/js/nf/jquery.sparkline.min.js"></script>
-
-
-<!--Skycons [ OPTIONAL ]-->
-<script src="/js/nf/skycons.min.js"></script>
+<script src="js/nifty.min.js"></script>
 
 
 <!--Switchery [ OPTIONAL ]-->
-<script src="/js/nf/switchery.min.js"></script>
+<script src="plugins/switchery/switchery.min.js"></script>
 
 
 <!--Bootstrap Select [ OPTIONAL ]-->
-<script src="/js/nf/bootstrap-select.min.js"></script>
+<script src="plugins/bootstrap-select/bootstrap-select.min.js"></script>
+
+
+<!--Bootstrap Tags Input [ OPTIONAL ]-->
+<script src="plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js"></script>
+
+
+<!--Chosen [ OPTIONAL ]-->
+<script src="plugins/chosen/chosen.jquery.min.js"></script>
+
+
+<!--noUiSlider [ OPTIONAL ]-->
+<script src="plugins/noUiSlider/jquery.nouislider.all.min.js"></script>
+
+
+<!--Bootstrap Timepicker [ OPTIONAL ]-->
+<script src="plugins/bootstrap-timepicker/bootstrap-timepicker.min.js"></script>
+
+
+<!--Bootstrap Datepicker [ OPTIONAL ]-->
+<script src="plugins/bootstrap-datepicker/bootstrap-datepicker.js"></script>
+
+
+<!--Dropzone [ OPTIONAL ]-->
+<script src="plugins/dropzone/dropzone.min.js"></script>
+
+
+<!--Summernote [ OPTIONAL ]-->
+<script src="plugins/summernote/summernote.min.js"></script>
 
 
 <!--Demo script [ DEMONSTRATION ]-->
-<script src="/js/nf/nifty-demo.min.js"></script>
+<script src="js/demo/nifty-demo.min.js"></script>
 
 
-<!--Specify page [ SAMPLE ]-->
-<script src="/js/nf/dashboard.js"></script>
+<!--Form Component [ SAMPLE ]-->
+<script src="js/demo/form-component.js"></script>
+
 
 
 <!--
