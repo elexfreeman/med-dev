@@ -111,7 +111,7 @@
                                             <label class="control-label">Регион</label>
                                             <!-- Default choosen -->
                                             <!--===================================================-->
-                                            <select data-placeholder="Выберите из списка" id="demo-chosen-select" tabindex="2" class="form-control">
+                                            <select data-placeholder="Выберите из списка"  tabindex="2" class="form-control">
                                                 <option value="">Выберите из списка...</option>
                                                 <option value="First">First Choice</option>
                                                 <option value="Second">Second Choice</option>
@@ -124,7 +124,7 @@
                                             <label class="control-label">Область</label>
                                             <!-- Default choosen -->
                                             <!--===================================================-->
-                                            <select data-placeholder="Выберите из списка" id="demo-chosen-select" tabindex="2" class="form-control">
+                                            <select data-placeholder="Выберите из списка"  tabindex="2" class="form-control">
                                                 <option value="">Выберите из списка...</option>
                                                 <option value="First">First Choice</option>
                                                 <option value="Second">Second Choice</option>
@@ -139,7 +139,7 @@
                                             <label class="control-label">Город</label>
                                             <!-- Default choosen -->
                                             <!--===================================================-->
-                                            <select data-placeholder="Выберите из списка" id="demo-chosen-select" tabindex="2" class="form-control">
+                                            <select data-placeholder="Выберите из списка"  tabindex="2" class="form-control">
                                                 <option value="">Выберите из списка...</option>
                                                 <option value="First">First Choice</option>
                                                 <option value="Second">Second Choice</option>
@@ -153,7 +153,7 @@
                                             <label class="control-label">Улица</label>
                                             <!-- Default choosen -->
                                             <!--===================================================-->
-                                            <select data-placeholder="Выберите из списка" id="demo-chosen-select" tabindex="2" class="form-control">
+                                            <select data-placeholder="Выберите из списка"  tabindex="2" class="form-control">
                                                 <option value="">Выберите из списка...</option>
                                                 <option value="First">First Choice</option>
                                                 <option value="Second">Second Choice</option>
@@ -199,7 +199,7 @@
                                             <label class="control-label">Тип документа</label>
                                             <!-- Default choosen -->
                                             <!--===================================================-->
-                                            <select data-placeholder="Выберите из списка" id="demo-chosen-select" tabindex="2" class="form-control">
+                                            <select data-placeholder="Выберите из списка"  tabindex="2" class="form-control">
                                                 <option value="">Выберите из списка...</option>
                                                 <option value="First">First Choice</option>
                                                 <option value="Second">Second Choice</option>
@@ -245,7 +245,7 @@
                                             <label class="control-label">Гражданство</label>
                                             <!-- Default choosen -->
                                             <!--===================================================-->
-                                            <select name="citizenship" data-placeholder="Выберите из списка" id="demo-chosen-select" tabindex="2" class="form-control">
+                                            <select name="citizenship" data-placeholder="Выберите из списка"  tabindex="2" class="form-control">
                                                 <option value="">Выберите из списка...</option>
                                                 <option value="First">First Choice</option>
                                                 <option value="Second">Second Choice</option>
@@ -282,7 +282,7 @@
                                             <label class="control-label">Регион</label>
                                             <!-- Default choosen -->
                                             <!--===================================================-->
-                                            <select data-placeholder="Выберите из списка" id="demo-chosen-select" tabindex="2" class="form-control">
+                                            <select data-placeholder="Выберите из списка"  tabindex="2" class="form-control">
                                                 <option value="">Выберите из списка...</option>
                                                 <option value="First">First Choice</option>
                                                 <option value="Second">Second Choice</option>
@@ -295,7 +295,7 @@
                                             <label class="control-label">Область</label>
                                             <!-- Default choosen -->
                                             <!--===================================================-->
-                                            <select data-placeholder="Выберите из списка" id="demo-chosen-select" tabindex="2" class="form-control">
+                                            <select data-placeholder="Выберите из списка"  tabindex="2" class="form-control">
                                                 <option value="">Выберите из списка...</option>
                                                 <option value="First">First Choice</option>
                                                 <option value="Second">Second Choice</option>
@@ -310,7 +310,7 @@
                                             <label class="control-label">Город</label>
                                             <!-- Default choosen -->
                                             <!--===================================================-->
-                                            <select data-placeholder="Выберите из списка" id="demo-chosen-select" tabindex="2" class="form-control">
+                                            <select data-placeholder="Выберите из списка"  tabindex="2" class="form-control">
                                                 <option value="">Выберите из списка...</option>
                                                 <option value="First">First Choice</option>
                                                 <option value="Second">Second Choice</option>
@@ -324,7 +324,7 @@
                                             <label class="control-label">Улица</label>
                                             <!-- Default choosen -->
                                             <!--===================================================-->
-                                            <select data-placeholder="Выберите из списка" id="demo-chosen-select" tabindex="2" class="form-control">
+                                            <select data-placeholder="Выберите из списка"  tabindex="2" class="form-control">
                                                 <option value="">Выберите из списка...</option>
                                                 <option value="First">First Choice</option>
                                                 <option value="Second">Second Choice</option>
@@ -369,7 +369,7 @@
                                             <label class="control-label">Тип документа</label>
                                             <!-- Default choosen -->
                                             <!--===================================================-->
-                                            <select data-placeholder="Выберите из списка" id="demo-chosen-select" tabindex="2" class="form-control">
+                                            <select data-placeholder="Выберите из списка"  tabindex="2" class="form-control">
                                                 <option value="">Выберите из списка...</option>
                                                 <option value="First">First Choice</option>
                                                 <option value="Second">Second Choice</option>
@@ -415,7 +415,7 @@
                                             <label class="control-label">Гражданство</label>
                                             <!-- Default choosen -->
                                             <!--===================================================-->
-                                            <select name="citizenship" data-placeholder="Выберите из списка" id="demo-chosen-select" tabindex="2" class="form-control">
+                                            <select name="citizenship" data-placeholder="Выберите из списка"  tabindex="2" class="form-control">
                                                 <option value="">Выберите из списка...</option>
                                                 <option value="First">First Choice</option>
                                                 <option value="Second">Second Choice</option>
@@ -452,7 +452,7 @@
                                             <label class="control-label">Регион</label>
                                             <!-- Default choosen -->
                                             <!--===================================================-->
-                                            <select data-placeholder="Выберите из списка" id="demo-chosen-select" tabindex="2" class="form-control">
+                                            <select data-placeholder="Выберите из списка"  tabindex="2" class="form-control">
                                                 <option value="">Выберите из списка...</option>
                                                 <option value="First">First Choice</option>
                                                 <option value="Second">Second Choice</option>
@@ -465,7 +465,7 @@
                                             <label class="control-label">Область</label>
                                             <!-- Default choosen -->
                                             <!--===================================================-->
-                                            <select data-placeholder="Выберите из списка" id="demo-chosen-select" tabindex="2" class="form-control">
+                                            <select data-placeholder="Выберите из списка"  tabindex="2" class="form-control">
                                                 <option value="">Выберите из списка...</option>
                                                 <option value="First">First Choice</option>
                                                 <option value="Second">Second Choice</option>
@@ -480,7 +480,7 @@
                                             <label class="control-label">Город</label>
                                             <!-- Default choosen -->
                                             <!--===================================================-->
-                                            <select data-placeholder="Выберите из списка" id="demo-chosen-select" tabindex="2" class="form-control">
+                                            <select data-placeholder="Выберите из списка"  tabindex="2" class="form-control">
                                                 <option value="">Выберите из списка...</option>
                                                 <option value="First">First Choice</option>
                                                 <option value="Second">Second Choice</option>
@@ -494,7 +494,7 @@
                                             <label class="control-label">Улица</label>
                                             <!-- Default choosen -->
                                             <!--===================================================-->
-                                            <select data-placeholder="Выберите из списка" id="demo-chosen-select" tabindex="2" class="form-control">
+                                            <select data-placeholder="Выберите из списка"  tabindex="2" class="form-control">
                                                 <option value="">Выберите из списка...</option>
                                                 <option value="First">First Choice</option>
                                                 <option value="Second">Second Choice</option>
