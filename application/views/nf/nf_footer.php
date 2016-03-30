@@ -47,9 +47,9 @@
 <script src="/js/nf/chosen.jquery.min.js"></script>
 
 
-<!--noUiSlider [ OPTIONAL ]-->
+<!--noUiSlider [ OPTIONAL ]-
 <script src="/js/nf/jquery.nouislider.all.min.js"></script>
-
+-->
 
 <!--Bootstrap Timepicker [ OPTIONAL ]-->
 <script src="/js/nf/bootstrap-timepicker.min.js"></script>
