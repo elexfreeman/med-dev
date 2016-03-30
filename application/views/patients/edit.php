@@ -50,7 +50,8 @@
                                 <div class="col-sm-6">
                                     <div class="form-group <?php if (form_error('surname') != '') echo 'has-error'; ?>">
                                         <label class="control-label">Фамилия</label>
-                                        <input type="text" name="surname" value="<?php echo set_value('surname'); ?>"
+                                        <input type="text" name="surname" value="<?php echo $surname; ?>"
+
                                                class="form-control"
                                                name="surname">
 
@@ -59,7 +60,7 @@
                                 <div class="col-sm-6">
                                     <div class="form-group <?php if (form_error('name') != '') echo 'has-error'; ?>">
                                         <label class="control-label">Имя</label>
-                                        <input type="text" value="<?php echo set_value('name'); ?>"
+                                        <input type="text"  value="<?php echo $name; ?>"
                                                class="form-control"
                                                name="name">
 
@@ -71,7 +72,7 @@
                                 <div class="col-sm-6">
                                     <div class="form-group <?php if (form_error('secname') != '') echo 'has-error'; ?>">
                                         <label class="control-label">Отчество</label>
-                                        <input type="text" value="<?php echo set_value('secname'); ?>"
+                                        <input type="text" value="<?php echo $secname; ?>"
                                                class="form-control"
                                                name="secname">
 
@@ -81,7 +82,7 @@
                                 <div class="col-sm-6">
                                     <div class="form-group date">
                                         <label class="control-label">Дата рождения</label>
-                                        <input type="text" class="form-control" name="birthday">
+                                        <input value="<?php echo $patient->birthday; ?>" type="text" class="form-control" name="birthday">
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
