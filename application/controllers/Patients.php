@@ -70,6 +70,7 @@ class Patients extends CI_Controller {
 		}
 		else
 		{
+			$this->data['patients']=$this->patient_model->GetAll();;
 			/*иначе подгружаем интерфейс админа*/
 			/*todo подумать об инетрефейсе админа*/
 			$this->load->view('nf/nf_head',$this->data);
