@@ -62,9 +62,14 @@ div class="boxed">
                             ?>
                             <tr>
                                 <td><?=$patient['id']?></td>
-                                <td><?php if($patient['sex']==1)
-                                        echo '<i class="fa fa-male"></i>'; else echo '<i class="fa fa-female"></i>';
-                                    ?></td>
+                                <td>
+                                    <div class="toolbar">
+                                        <div id="demo-custom-toolbar" class="table-toolbar-left">
+                                            <span  id="demo-dt-delete-btn"
+                                               class="btn btn-primary  btn-labeled fa fa-<?php if($patient['sex']==1) echo 'male'; else echo 'female'; ?>"></span>
+                                        </div>
+                                    </div>
+                                </td>
                                 <td><a class="tabletdlink" href="/patients/edit/<?=$patient['id']?>"><?=$patient['surname']?> <?=$patient['name']?> <?=$patient['secname']?></a></td>
 
                                 <td><?php echo date( 'm.d.Y', strtotime($patient['birthday']) );?></td>
