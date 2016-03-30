@@ -93,7 +93,7 @@
                     </div>
                     <div class="col-sm-6">
                         <div class="panel">
-                            <div class="panel-heading">
+                            <div class="panel-heading bg-success">
                                 <h3 class="panel-title">Полный адрес:</h3>
                             </div>
 
