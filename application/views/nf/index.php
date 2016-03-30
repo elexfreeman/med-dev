@@ -14,35 +14,35 @@
 
 
     <!--Bootstrap Stylesheet [ REQUIRED ]-->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/nf/bootstrap.min.css" rel="stylesheet">
 
 
     <!--Nifty Stylesheet [ REQUIRED ]-->
-    <link href="/css/nifty.min.css" rel="stylesheet">
+    <link href="/css/nf/nifty.min.css" rel="stylesheet">
 
 
     <!--Font Awesome [ OPTIONAL ]-->
-    <link href="/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/css/nf/font-awesome.min.css" rel="stylesheet">
 
 
     <!--Animate.css [ OPTIONAL ]-->
-    <link href="/css/animate.min.css" rel="stylesheet">
+    <link href="/css/nf/animate.min.css" rel="stylesheet">
 
 
     <!--Morris.js [ OPTIONAL ]-->
-    <link href="/css/morris.min.css" rel="stylesheet">
+    <link href="/css/nf/morris.min.css" rel="stylesheet">
 
 
     <!--Switchery [ OPTIONAL ]-->
-    <link href="/css/switchery.min.css" rel="stylesheet">
+    <link href="/css/nf/switchery.min.css" rel="stylesheet">
 
 
     <!--Bootstrap Select [ OPTIONAL ]-->
-    <link href="/css/bootstrap-select.min.css" rel="stylesheet">
+    <link href="/css/nf/bootstrap-select.min.css" rel="stylesheet">
 
 
     <!--Demo script [ DEMONSTRATION ]-->
-    <link href="css/nifty-demo.min.css" rel="stylesheet">
+    <link href="css/nf/nifty-demo.min.css" rel="stylesheet">
 
 
 
@@ -51,8 +51,8 @@
     <!--=================================================-->
 
     <!--Page Load Progress Bar [ OPTIONAL ]-->
-    <link href="/css/pace.min.css" rel="stylesheet">
-    <script src="/css/pace.min.js"></script>
+    <link href="/css/nf/pace.min.css" rel="stylesheet">
+    <script src="/css/nf/pace.min.js"></script>
 
 
 
