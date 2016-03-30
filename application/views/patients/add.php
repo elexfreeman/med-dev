@@ -7,7 +7,7 @@
         <!--Page Title-->
         <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
         <div id="page-title">
-            <h1 class="page-header text-overflow">Пациенты</h1>
+            <h1 class="page-header text-overflow">Пациент</h1>
 
             <!--Searchbox-->
             <div class="searchbox">
@@ -44,7 +44,7 @@
                     <div class="col-sm-6">
                         <div class="panel">
                             <div class="panel-heading">
-                                <h3 class="panel-title">Block styled form</h3>
+                                <h3 class="panel-title">Пациент</h3>
                             </div>
 
                             <!--Block Styled Form -->
