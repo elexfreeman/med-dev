@@ -47,10 +47,10 @@
                         <div class="panel-body">
                             <div class="row">
                                 <div class="col-sm-6">
-                                    <div class="form-group">
+                                    <div class="form-group <?php if (form_error('surname') != '') echo 'has-error'; ?>">
                                         <label class="control-label">Фамилия</label>
                                         <input type="text" name="surname" value="<?php echo set_value('surname'); ?>"
-                                               class="form-control <?php if (form_error('surname') != '') echo 'has-error'; ?>"
+                                               class="form-control"
                                                name="surname">
 
                                     </div>
