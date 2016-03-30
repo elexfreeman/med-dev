@@ -64,10 +64,8 @@
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <label class="control-label">Имя</label>
-                                        <input type="text" class="form-control">
-                                        <input id="name" type="text"
-                                               placeholder="Имя" name="name"
-                                               class="from-control <?php if(form_error('name')!='') echo 'form-error-input'; ?>">
+                                        <input type="text" class="form-control <?php if(form_error('name')!='') echo 'has-error'; ?>" name="name">
+
 
                                     </div>
                                 </div>
