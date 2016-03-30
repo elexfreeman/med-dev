@@ -65,14 +65,14 @@ div class="boxed">
                                 <td>
                                     <img src="/images/icons/<?php if($patient['sex']==1)
                                         echo 'human-512.png'; else echo 'woman-512.png';
-                                    ?>" class="table-icon">
+                                    ?>" class="img-md">
                                 </td>
                                 <td><a class="tabletdlink" href="/patients/edit/<?=$patient['id']?>"><?=$patient['surname']?> <?=$patient['name']?> <?=$patient['secname']?></a></td>
 
                                 <td><?php echo date( 'm.d.Y', strtotime($patient['birthday']) );?></td>
                                 <td>
                                     <a class="tabletdlink" href="/patients/edit/<?=$patient['id']?>">
-                                        Изменить<img src="/images/icons/document-edit.png" class="table-icon">
+                                        Изменить<img src="/images/icons/document-edit.png" class="img-md">
                                     </a>
                                 </td>
                                 <td>Удалить<img src="/images/icons/trash-can.png" class="table-icon"></td>
