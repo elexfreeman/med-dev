@@ -106,7 +106,7 @@ class Patients extends CI_Controller {
 			$this->data['surname'] = $this->form_validation->set_value('surname', $patient->surname);
 			$this->data['secname'] =$this->form_validation->set_value('secname', $patient->secname);
 			$this->data['name'] = $this->form_validation->set_value('name', $patient->name);
-			$this->data['doc_date'] = $this->form_validation->set_value('doc_date', $patient->patient_doc->doc_date);
+			//$this->data['doc_date'] = $this->form_validation->set_value('doc_date', $patient->patient_doc->doc_date);
 			$this->data['sex'] = $patient->sex;
 
 
