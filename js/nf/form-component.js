@@ -25,7 +25,7 @@ $(document).ready(function() {
 	// Require noUiSlider
 	// http://refreshless.com/nouislider/
 	// =================================================================
-	$("#demo-range-def").noUiSlider({
+	/*$("#demo-range-def").noUiSlider({
 		start: [ 20 ],
 		connect : 'lower',
 		range: {
@@ -33,14 +33,14 @@ $(document).ready(function() {
 			'max': [ 100 ]
 		}
 	}).Link('lower').to($("#demo-range-def-val"));
-
+*/
 
 	// RANGE SLIDER - SLIDER STEP BY STEP
 	// =================================================================
 	// Require noUiSlider
 	// http://refreshless.com/nouislider/
 	// =================================================================
-	$("#demo-range-step").noUiSlider({
+/*	$("#demo-range-step").noUiSlider({
 		start: [ 20 ],
 		connect : 'lower',
 		step:10,
@@ -49,8 +49,8 @@ $(document).ready(function() {
 		'max': [ 100 ]
 		}
 	}).Link('lower').to($("#demo-range-step-val"));
-
-
+*/
+/*
 	// VERTICAL RANGE SLIDER
 	// =================================================================
 	// Require noUiSlider
@@ -199,7 +199,7 @@ $(document).ready(function() {
 		mode: 'range',
 		density: 5
 	});
-
+*/
 
 
 	// BOOTSTRAP TIMEPICKER
