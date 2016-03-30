@@ -68,7 +68,9 @@ class Nf extends CI_Controller {
             /*иначе подгружаем интерфейс админа*/
             /*todo подумать об инетрефейсе админа*/
             /*Заголовок общтй для всех*/
+            $this->load->view('nf/head',$this->data);
             $this->load->view('nf/index',$this->data);
+            $this->load->view('nf/footer',$this->data);
 
 
         }
