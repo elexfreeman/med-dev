@@ -82,7 +82,7 @@
                                 <div class="col-sm-6">
                                     <div class="form-group date">
                                         <label class="control-label">Дата рождения</label>
-                                        <input value="<?php echo $patient->birthday; ?>" type="text" class="form-control" name="birthday">
+                                        <input value="<?php echo $patient->birthday; ?>" type="text" class="form-control" name="birthday" id="birthday">
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
