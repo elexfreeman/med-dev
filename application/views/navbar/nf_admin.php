@@ -42,10 +42,10 @@
                         <li class="active-link">
                             <a href="index.html">
                                 <i class="fa fa-dashboard"></i>
-						                    <span class="menu-title">
-												<strong>Рабочий стол</strong>
-												<!-- <span class="label label-success pull-right">Top</span> -->
-											</span>
+                                <span class="menu-title">
+                                    <strong>Рабочий стол</strong>
+                                    <!-- <span class="label label-success pull-right">Top</span> -->
+                                </span>
                             </a>
                         </li>
 
