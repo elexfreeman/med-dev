@@ -70,7 +70,7 @@
 
                         <!--Menu list item-->
                         <li class="active-link">
-                            <a href="index.html">
+                            <a href="/patients">
                                 <i class="fa fa-wheelchair"></i>
 						                    <span class="menu-title">
 												<strong>Пациенты</strong>
@@ -80,7 +80,7 @@
                         </li>
   <!--Menu list item-->
                         <li class="active-link">
-                            <a href="index.html">
+                            <a href="/consults">
                                 <i class="fa fa-heartbeat"></i>
 						                    <span class="menu-title">
 												<strong>Обращения</strong>
