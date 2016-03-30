@@ -63,7 +63,9 @@ div class="boxed">
                             <tr>
                                 <td><?=$patient['id']?></td>
                                 <td>
-                                    <span class="icon-wrap icon-circle bg-mint"><i class="fa fa-<?php if($patient['sex']==1) echo 'male'; else echo 'female'; ?>"></i></span>
+                                    <span class="icon-wrap icon-circle bg-<?php if($patient['sex']==1) echo 'primary'; else echo 'pink'; ?>">
+                                        <i class="fa fa-<?php if($patient['sex']==1) echo 'male'; else echo 'female'; ?>"></i>
+                                    </span>
 
                                 </td>
                                 <td><a class="tabletdlink" href="/patients/edit/<?=$patient['id']?>"><?=$patient['surname']?> <?=$patient['name']?> <?=$patient['secname']?></a></td>
