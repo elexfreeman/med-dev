@@ -7,7 +7,7 @@
         <!--================================-->
         <div class="navbar-header">
             <a href="index.html" class="navbar-brand">
-                <img src="img/logo.png" alt="Nifty Logo" class="brand-icon">
+                <img src="/images/icons/logo1.png" alt="MedCraft" class="brand-icon">
                 <div class="brand-title">
                     <span class="brand-text">MedCraft</span>
                 </div>
