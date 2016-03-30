@@ -188,36 +188,11 @@
                                         <div class="form-group">
                                             <label class="control-label">Дом</label>
                                             <input type="text" name="POST_INDEX" value="<?php echo set_value('surname'); ?>"  class="form-control <?php if(form_error('surname')!='') echo 'has-error'; ?>" name="surname">
-
                                         </div>
                                     </div>
                                 </div>
 
-
-                                    <div class="col-sm-4">
-                                        <div class="form-group">
-                                            <label class="control-label">Отчество</label>
-                                            <input type="text"  value="<?php echo set_value('secname'); ?>" class="form-control <?php if(form_error('secname')!='') echo 'has-error'; ?>" name="secname">
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="form-group date">
-                                            <label class="control-label">Дата рождения</label>
-                                            <input type="text" class="form-control" name="birthday" >
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="radio">
-                                            <!-- Inline radio buttons -->
-                                            <label class="form-radio form-normal form-text"><input type="radio" checked name="sex"> Мужчина</label>
-                                            <label class="form-radio form-normal form-text"><input type="radio" name="sex"> Женщина</label>
-                                        </div>
-                                    </div>
-
                                 </div>
-                            </div>
-                            <div class="panel-footer text-right">
-                                <button class="btn btn-info" type="submit">Submit</button>
                             </div>
 
                             <!--===================================================-->
