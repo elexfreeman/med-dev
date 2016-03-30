@@ -56,10 +56,10 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
-                                    <div class="form-group">
+                                    <div class="form-group <?php if (form_error('name') != '') echo 'has-error'; ?>">
                                         <label class="control-label">Имя</label>
                                         <input type="text" value="<?php echo set_value('name'); ?>"
-                                               class="form-control <?php if (form_error('name') != '') echo 'has-error'; ?>"
+                                               class="form-control"
                                                name="name">
 
 
@@ -68,10 +68,10 @@
                             </div>
                             <div class="row">
                                 <div class="col-sm-6">
-                                    <div class="form-group">
+                                    <div class="form-group <?php if (form_error('secname') != '') echo 'has-error'; ?>">
                                         <label class="control-label">Отчество</label>
                                         <input type="text" value="<?php echo set_value('secname'); ?>"
-                                               class="form-control <?php if (form_error('secname') != '') echo 'has-error'; ?>"
+                                               class="form-control"
                                                name="secname">
 
 
