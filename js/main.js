@@ -19,7 +19,13 @@ $(function() {
 
 
 
-    $('#birthday input').datepicker({autoclose:true});
+    $('.hasDatepicker').datetimepicker({
+        format:'d.m.Y',
+        lang:'ru',
+        timepicker:false,
+        closeOnDateSelect:true,
+
+    });
 });
 
 
