@@ -66,7 +66,7 @@
     <!--Demo [ DEMONSTRATION ]-->
     <link href="/css/nf/nifty-demo.min.css" rel="stylesheet">
     <link href="/css/nf/elex.css" rel="stylesheet">
-
+    <link rel="stylesheet" type="text/css" href="/css/jquery.datetimepicker.css">
 
 
 
