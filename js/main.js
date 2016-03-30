@@ -19,7 +19,7 @@ $(function() {
 
 
 
-    $('.date').datepicker({autoclose:true});
+    $('.date input').datepicker({autoclose:true});
 });
 
 
