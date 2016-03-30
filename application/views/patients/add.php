@@ -55,10 +55,6 @@
                                     <div class="form-group">
                                         <label class="control-label">Фамилия</label>
                                         <input type="text" name="surname" value="<?php echo set_value('surname'); ?>"  class="form-control <?php if(form_error('surname')!='') echo 'has-error'; ?>" name="surname">
-                                        <input id="surname" type="text"
-                                               value="<?php echo set_value('surname'); ?>"
-                                               placeholder="Фамилия" name="surname"
-                                               class="from-control<?php if(form_error('surname')!='') echo ' form-error-input'; ?>">
 
                                     </div>
                                 </div>
