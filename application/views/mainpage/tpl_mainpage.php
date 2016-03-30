@@ -61,9 +61,9 @@
 									</span>
                         </div>
                         <div class="media-body">
-                            <p class="text-2x mar-no text-thin">241</p>
+                            <p class="text-2x mar-no text-thin">Форма 89</p>
 
-                            <p class="text-muted mar-no">Ф89</p>
+                            <p class="text-muted mar-no">Описание</p>
                         </div>
                     </div>
                 </a>
@@ -80,9 +80,9 @@
                     </div>
 
                     <div class="media-body">
-                        <p class="text-2x mar-no text-thin">543</p>
+                        <p class="text-2x mar-no text-thin">Форма 30</p>
 
-                        <p class="text-muted mar-no">New Order</p>
+                        <p class="text-muted mar-no">Описание</p>
                     </div>
                 </div>
 
@@ -98,9 +98,9 @@
                     </div>
 
                     <div class="media-body">
-                        <p class="text-2x mar-no text-thin">34</p>
+                        <p class="text-2x mar-no text-thin">Пациенты</p>
 
-                        <p class="text-muted mar-no">Comments</p>
+                        <p class="text-muted mar-no">Список пациентов</p>
                     </div>
                 </div>
 
@@ -116,9 +116,9 @@
                     </div>
 
                     <div class="media-body">
-                        <p class="text-2x mar-no text-thin">654</p>
+                        <p class="text-2x mar-no text-thin">Обращения</p>
 
-                        <p class="text-muted mar-no">Sales</p>
+                        <p class="text-muted mar-no">Описание</p>
                     </div>
                 </div>
 
