@@ -111,13 +111,16 @@ class Patients extends CI_Controller {
 
 
 			if ($this->form_validation->run() == FALSE) {
-				/*Заголовок общтй для всех*/
-				$this->load->view('head', $this->data);
-				/*навбар*/
-				$this->load->view('navbar/admin_navbar', $this->data);
+				$this->load->view('nf/nf_head',$this->data);
+				$this->load->view('navbar/nf_admin_topnav',$this->data);
+				/*шаблон страницы*/
 				$this->load->view('patients/edit', $this->data);
-				/*футер общий для всех*/
-				$this->load->view('footer');
+
+				$this->load->view('navbar/nf_admin',$this->data);
+
+				$this->load->view('nf/nf_footer',$this->data);
+
+
 			}
 			else
 			{
