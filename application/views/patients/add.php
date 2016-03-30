@@ -77,9 +77,8 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
-                                    <div class="form-group">
+                                    <div id="demo-dp-component">
                                         <div class="input-group date">
-                                            <label class="control-label">Дата рождения</label>
                                             <input type="text" class="form-control">
                                             <span class="input-group-addon"><i class="fa fa-calendar fa-lg"></i></span>
                                         </div>
