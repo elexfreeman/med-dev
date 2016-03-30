@@ -106,8 +106,10 @@ class Auth extends CI_Controller {
 			$this->lang->load('mainpage');
 			$this->data['pagetitle']=$this->lang->line('pagetitle');
 			/*Заголовок общтй для всех*/
-			$this->load->view('head',$this->data);
-			$this->_render_page('auth/login', $this->data);
+
+			$this->load->view('nf/nf_head',$this->data);
+			$this->load->view('nf/login',$this->data);
+			$this->load->view('nf/nf_footer',$this->data);
 		}
 	}
 
