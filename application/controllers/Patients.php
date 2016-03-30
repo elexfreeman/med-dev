@@ -70,15 +70,18 @@ class Patients extends CI_Controller {
 		}
 		else
 		{
-			/*Заголовок общтй для всех*/
-			$this->load->view('head',$this->data);
-			/*навбар*/
-			$this->load->view('navbar/admin_navbar',$this->data);
-			$this->data['patients']=$this->patient_model->GetAll();;
-
+			/*иначе подгружаем интерфейс админа*/
+			/*todo подумать об инетрефейсе админа*/
+			$this->load->view('nf/nf_head',$this->data);
+			$this->load->view('navbar/nf_admin_topnav',$this->data);
+			/*шаблон страницы*/
 			$this->load->view('patients/index',$this->data);
-			/*футер общий для всех*/
-			$this->load->view('footer');
+
+			$this->load->view('navbar/nf_admin',$this->data);
+
+			$this->load->view('nf/nf_footer',$this->data);
+
+
 		}
 	}
 
