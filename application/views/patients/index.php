@@ -73,7 +73,10 @@ div class="boxed">
                                         <i class="fa fa-edit"></i>
                                     </a>
                                 </td>
-                                <td>Удалить<img src="/images/icons/trash-can.png" class="img-md"></td>
+                                <td><div class="toolbar"><div id="demo-custom-toolbar" class="table-toolbar-left">
+                                            <button id="demo-dt-delete-btn" class="btn btn-danger btn-labeled fa fa-times">Delete</button>
+                                        </div></div>
+                                </td>
                             </tr>
                             <?php
                         }
