@@ -313,25 +313,19 @@
                                 </div>
                                 <div class="col-sm-4">
                                     <div class="form-group">
-                                        <label class="control-label">polis_type</label>
-                                        <!-- Default choosen -->
-                                        <!--===================================================-->
-                                        <select name="polis_type" data-placeholder="Выберите из списка" tabindex="2" class="form-control">
-                                            <option value="">Выберите из списка...</option>
-                                            <option value="First">First Choice</option>
-                                            <option value="Second">Second Choice</option>
-                                            <option value="Third">Third Choice</option>
-                                        </select>
+                                        <label class="control-label">id_f002</label>
+                                        <input type="text" name="id_f002" value="<?php echo set_value('id_f002'); ?>"
+                                               class="form-control <?php if (form_error('id_f002') != '') echo 'has-error'; ?>">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-sm-4">
                                     <div class="form-group">
-                                        <label class="control-label">Город</label>
+                                        <label class="control-label">polis_type</label>
                                         <!-- Default choosen -->
                                         <!--===================================================-->
-                                        <select data-placeholder="Выберите из списка" tabindex="2" class="form-control">
+                                        <select name="polis_type" data-placeholder="Выберите из списка" tabindex="2" class="form-control">
                                             <option value="">Выберите из списка...</option>
                                             <option value="First">First Choice</option>
                                             <option value="Second">Second Choice</option>
