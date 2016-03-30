@@ -78,6 +78,8 @@ class Nf extends CI_Controller {
 
     public function login()
     {
-        $this->load->view('nf/index',$this->data);
+        $this->load->view('nf/nf_head',$this->data);
+        $this->load->view('nf/login',$this->data);
+        $this->load->view('nf/nf_footer',$this->data);
     }
 }
