@@ -105,7 +105,7 @@
                     <div class="col-sm-6">
                         <div class="panel">
                             <div class="panel-heading">
-                                <h3 class="panel-title">Block styled form</h3>
+                                <h3 class="panel-title">Полный адрес:</strong> 612961, Самара ул. Садовая д. 78, кв 4 </h3>
                             </div>
 
                             <!--Block Styled Form -->
@@ -113,19 +113,24 @@
 
                             <div class="panel-body">
                                 <div class="row">
-                                    <div class="col-sm-6">
+                                    <div class="col-sm-4">
                                         <div class="form-group">
-                                            <label class="control-label">Фамилия</label>
-                                            <input type="text" name="surname" value="<?php echo set_value('surname'); ?>"  class="form-control <?php if(form_error('surname')!='') echo 'has-error'; ?>" name="surname">
+                                            <label class="control-label">Почтовый индекс</label>
+                                            <input type="text" name="POST_INDEX" value="<?php echo set_value('surname'); ?>"  class="form-control <?php if(form_error('surname')!='') echo 'has-error'; ?>" name="surname">
 
                                         </div>
                                     </div>
-                                    <div class="col-sm-6">
+                                    <div class="col-sm-4">
                                         <div class="form-group">
-                                            <label class="control-label">Имя</label>
-                                            <input type="text" value="<?php echo set_value('name'); ?>" class="form-control <?php if(form_error('name')!='') echo 'has-error'; ?>" name="name">
-
-
+                                            <label class="control-label">Регион</label>
+                                            <!-- Default choosen -->
+                                            <!--===================================================-->
+                                            <select data-placeholder="Choose a Country..." id="demo-chosen-select" tabindex="2">
+                                                <option value="">Select one...</option>
+                                                <option value="First">First Choice</option>
+                                                <option value="Second">Second Choice</option>
+                                                <option value="Third">Third Choice</option>
+                                            </select>
                                         </div>
                                     </div>
                                 </div>
