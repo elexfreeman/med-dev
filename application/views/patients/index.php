@@ -40,6 +40,9 @@ div class="boxed">
     <!--===================================================-->
     <div id="page-content">
         <div class="panel">
+            <div class="panel-heading">
+                <h3 class="panel-title">Список пациентов</h3>
+            </div>
             <div class="panel-body">
                 <div class="table-responsive">
                     <table class="table table-striped">
