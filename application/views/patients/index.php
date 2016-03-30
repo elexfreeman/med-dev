@@ -1,4 +1,4 @@
-div class="boxed">
+<div class="boxed">
 
 <!--CONTENT CONTAINER-->
 <!--===================================================-->
