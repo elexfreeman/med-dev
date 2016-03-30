@@ -52,7 +52,7 @@ div class="boxed">
 
                             <th colspan="2">
                                 <a href="/patients/add">
-                                    Добавитkь
+                                    Добавить
                                 </a>
                             </th>
                         </tr>
