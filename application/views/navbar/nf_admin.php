@@ -40,7 +40,7 @@
 
                         <!--Menu list item-->
                         <li class="active-link">
-                            <a href="index.html">
+                            <a href="/">
                                 <i class="fa fa-dashboard"></i>
                                 <span class="menu-title">
                                     <strong>Рабочий стол</strong>
