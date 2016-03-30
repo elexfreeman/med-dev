@@ -125,7 +125,7 @@
                                             <label class="control-label">Регион</label>
                                             <!-- Default choosen -->
                                             <!--===================================================-->
-                                            <select data-placeholder="Choose a Country..." id="demo-chosen-select" tabindex="2">
+                                            <select data-placeholder="Выберите из списка" id="demo-chosen-select" tabindex="2" class="form-control">
                                                 <option value="">Select one...</option>
                                                 <option value="First">First Choice</option>
                                                 <option value="Second">Second Choice</option>
