@@ -52,7 +52,7 @@ div class="boxed">
 
                             <th colspan="2">
                                 <a href="/patients/add">
-                                    Добавить<img src="/images/icons/document-add-w.png" class="img-md">
+                                    Добавитkь
                                 </a>
                             </th>
                         </tr>
