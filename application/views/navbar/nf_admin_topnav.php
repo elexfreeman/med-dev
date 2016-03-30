@@ -349,7 +349,7 @@
                 <li id="dropdown-user" class="dropdown">
                     <a href="#" data-toggle="dropdown" class="dropdown-toggle text-right">
                                 <span class="pull-right">
-                                    <img class="img-circle img-user media-object" src="/images/default-user-avatar.jpg" alt="Profile Picture">
+                                    <img class="img-circle img-user media-object" src="/images/icons/default-user-avatar.jpg" alt="Profile Picture">
                                 </span>
                         <div class="username hidden-xs">John Doe</div>
                     </a>
