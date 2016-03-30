@@ -112,7 +112,7 @@ class Auth extends CI_Controller {
 			/*Заголовок общтй для всех*/
 
 			$this->load->view('nf/nf_head',$this->data);
-			$this->load->view('nf/login',$this->data);
+			$this->load->view('auth/login',$this->data);
 			$this->load->view('nf/nf_footer',$this->data);
 		}
 	}
