@@ -57,13 +57,14 @@
                                         <input id="surname" type="text"
                                                value="<?php echo set_value('surname'); ?>"
                                                placeholder="Фамилия" name="surname"
-                                               class="from-control <?php if(form_error('surname')!='') echo 'form-error-input'; ?>">
+                                               class="from-control<?php if(form_error('surname')!='') echo ' form-error-input'; ?>">
 
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <label class="control-label">Имя</label>
+                                        <input type="text" class="form-control">
                                         <input id="name" type="text"
                                                placeholder="Имя" name="name"
                                                class="from-control <?php if(form_error('name')!='') echo 'form-error-input'; ?>">
