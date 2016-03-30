@@ -302,15 +302,7 @@
 
                     <div class="dropdown-menu dropdown-menu-md dropdown-menu-right panel-default">
 
-                        <!-- Dropdown heading  -->
-                        <div class="pad-all bord-btm">
-                            <p class="text-lg text-muted text-semibold mar-btm">750Gb of 1,000Gb Used</p>
-                            <div class="progress progress-sm">
-                                <div class="progress-bar" style="width: 70%;">
-                                    <span class="sr-only">70%</span>
-                                </div>
-                            </div>
-                        </div>
+
 
 
                         <!-- User dropdown menu -->
