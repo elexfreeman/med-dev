@@ -148,12 +148,56 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-sm-6">
+                                    <div class="col-sm-4">
+                                        <div class="form-group">
+                                            <label class="control-label">Город</label>
+                                            <!-- Default choosen -->
+                                            <!--===================================================-->
+                                            <select data-placeholder="Выберите из списка" id="demo-chosen-select" tabindex="2" class="form-control">
+                                                <option value="">Выберите из списка...</option>
+                                                <option value="First">First Choice</option>
+                                                <option value="Second">Second Choice</option>
+                                                <option value="Third">Third Choice</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-4">
+                                        <div class="form-group">
+                                            <label class="control-label">Улица</label>
+                                            <!-- Default choosen -->
+                                            <!--===================================================-->
+                                            <select data-placeholder="Выберите из списка" id="demo-chosen-select" tabindex="2" class="form-control">
+                                                <option value="">Выберите из списка...</option>
+                                                <option value="First">First Choice</option>
+                                                <option value="Second">Second Choice</option>
+                                                <option value="Third">Third Choice</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-2">
+                                        <div class="form-group">
+                                            <label class="control-label">Корпус</label>
+                                            <input type="text" name="POST_INDEX" value="<?php echo set_value('surname'); ?>"  class="form-control <?php if(form_error('surname')!='') echo 'has-error'; ?>" name="surname">
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-2">
+                                        <div class="form-group">
+                                            <label class="control-label">Дом</label>
+                                            <input type="text" name="POST_INDEX" value="<?php echo set_value('surname'); ?>"  class="form-control <?php if(form_error('surname')!='') echo 'has-error'; ?>" name="surname">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                    <div class="col-sm-4">
                                         <div class="form-group">
                                             <label class="control-label">Отчество</label>
                                             <input type="text"  value="<?php echo set_value('secname'); ?>" class="form-control <?php if(form_error('secname')!='') echo 'has-error'; ?>" name="secname">
-
-
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
