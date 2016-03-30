@@ -75,7 +75,7 @@ div class="boxed">
                                         Изменить<img src="/images/icons/document-edit.png" class="img-md">
                                     </a>
                                 </td>
-                                <td>Удалить<img src="/images/icons/trash-can.png" class="table-icon"></td>
+                                <td>Удалить<img src="/images/icons/trash-can.png" class="img-md"></td>
                             </tr>
                             <?php
                         }
