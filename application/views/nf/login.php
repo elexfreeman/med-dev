@@ -19,7 +19,7 @@
 
     <!-- LOGIN FORM -->
     <!--===================================================-->
-    <div class="cls-content">
+    <div class="cls-content cls-container">
         <div class="cls-content-sm panel">
             <div class="panel-body">
                 <p class="pad-btm">Войдите в свой акаунт</p>
