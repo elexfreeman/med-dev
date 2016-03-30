@@ -41,7 +41,7 @@ class Patients extends CI_Controller {
 
 		/*Настройки валидатора*/
 		$this->form_validation->set_rules('surname', 'Фамилия', 'required');
-		$this->form_validation->set_rules('doc_date', 'Дата выдачи документа', 'required');
+		//$this->form_validation->set_rules('doc_date', 'Дата выдачи документа', 'required');
 		$this->form_validation->set_rules('secname', 'Отчество', 'required');
 		$this->form_validation->set_rules('name', 'Имя', 'required',
 			array('required' => 'Поле %s, должно быть заполненно .')
