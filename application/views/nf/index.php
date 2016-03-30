@@ -4179,63 +4179,63 @@
 <!--=================================================-->
 
 <!--jQuery [ REQUIRED ]-->
-<script src="/nf/js/jquery-2.1.1.min.js"></script>
+<script src="/js/nf/jquery-2.1.1.min.js"></script>
 
 
 <!--BootstrapJS [ RECOMMENDED ]-->
-<script src="/nf/js/bootstrap.min.js"></script>
+<script src="/js/nf/bootstrap.min.js"></script>
 
 
 <!--Fast Click [ OPTIONAL ]-->
-<script src="/nf/js/fastclick.min.js"></script>
+<script src="/js/nf/fastclick.min.js"></script>
 
 
 <!--Nifty Admin [ RECOMMENDED ]-->
-<script src="/nf/js/nifty.min.js"></script>
+<script src="/js/nf/nifty.min.js"></script>
 
 
 <!--Switchery [ OPTIONAL ]-->
-<script src="/nf/js/switchery.min.js"></script>
+<script src="/js/nf/switchery.min.js"></script>
 
 
 <!--Bootstrap Select [ OPTIONAL ]-->
-<script src="/nf/js/bootstrap-select.min.js"></script>
+<script src="/js/nf/bootstrap-select.min.js"></script>
 
 
 <!--Bootstrap Tags Input [ OPTIONAL ]-->
-<script src="/nf/js/bootstrap-tagsinput.min.js"></script>
+<script src="/js/nf/bootstrap-tagsinput.min.js"></script>
 
 
 <!--Chosen [ OPTIONAL ]-->
-<script src="/nf/js/chosen.jquery.min.js"></script>
+<script src="/js/nf/chosen.jquery.min.js"></script>
 
 
 <!--noUiSlider [ OPTIONAL ]-->
-<script src="/nf/js/jquery.nouislider.all.min.js"></script>
+<script src="/js/nf/jquery.nouislider.all.min.js"></script>
 
 
 <!--Bootstrap Timepicker [ OPTIONAL ]-->
-<script src="/nf/js/bootstrap-timepicker.min.js"></script>
+<script src="/js/nf/bootstrap-timepicker.min.js"></script>
 
 
 <!--Bootstrap Datepicker [ OPTIONAL ]-->
-<script src="/nf/js/bootstrap-datepicker.js"></script>
+<script src="/js/nf/bootstrap-datepicker.js"></script>
 
 
 <!--Dropzone [ OPTIONAL ]-->
-<script src="/nf/js/dropzone.min.js"></script>
+<script src="/js/nf/dropzone.min.js"></script>
 
 
 <!--Summernote [ OPTIONAL ]-->
-<script src="/nf/js/summernote.min.js"></script>
+<script src="/js/nf/summernote.min.js"></script>
 
 
 <!--Demo script [ DEMONSTRATION ]-->
-<script src="/nf/js/nifty-demo.min.js"></script>
+<script src="/js/nf/nifty-demo.min.js"></script>
 
 
 <!--Form Component [ SAMPLE ]-->
-<script src="/nf/js/form-component.js"></script>
+<script src="/js/nf/form-component.js"></script>
 
 
 

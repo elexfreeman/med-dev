@@ -73,4 +73,9 @@ class Nf extends CI_Controller {
 
         }
     }
+
+    public function login()
+    {
+        $this->load->view('nf/index',$this->data);
+    }
 }
