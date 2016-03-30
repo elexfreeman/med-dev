@@ -56,8 +56,8 @@
             </div>
         </div>
         <div class="pad-ver">
-            <a href="pages-password-reminder.html" class="btn-link mar-rgt">Условия использования</a>
-            <a href="pages-register.html" class="btn-link mar-lft">Политика конфиденциальности</a>
+            <a href="#" class="btn-link mar-rgt">Условия использования</a>
+            <a href="#" class="btn-link mar-lft">Политика конфиденциальности</a>
         </div>
     </div>
     <!--===================================================-->
