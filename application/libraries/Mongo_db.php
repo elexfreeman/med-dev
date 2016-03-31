@@ -1,4 +1,4 @@
-<? if (!defined('BASEPATH')) exit('No direct script access allowed');
+<?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
 
 /* PLEASE NOTE: Alex Bilbe (http://www.alexbilbie.com) has merged this fork of his original code back into his own. http://bitbucket.org/alexbilbie/codeigniter-mongo-library/wiki/Home
@@ -699,7 +699,7 @@ class Mongo_db
             $options['persist'] = isset($this->persist_key) && !empty($this->persist_key) ? $this->persist_key : 'ci_mongo_persist';
         endif;
         try {
-            $this->connection = new Mongo($this->connection_string, $options);
+            $this->connection = new MongoClient($this->connection_string, $options);
             $this->db = $this->connection->{$this->dbname};
             return ($this);
         } catch (MongoConnectionException $e) {

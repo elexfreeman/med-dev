@@ -17,7 +17,7 @@ class Mongotest extends CI_Controller
     public function __construct()
     {
         parent::__construct();
-        $this->load->library('Mongo_db');
+        $this->load->library('mongo_db');
     }
 
     public function index()
@@ -27,8 +27,8 @@ class Mongotest extends CI_Controller
         $this->load->view('nf/nf_head', $this->data);
         $this->load->view('navbar/nf_admin_topnav', $this->data);
         /*шаблон страницы*/
-        $this->data['colection'] = $this->someclass->get('unicorns');
-        $this->load->view('mongo');
+        $this->data['colection'] = $this->mongo_db->get('unicorns');
+        $this->load->view('mongo', $this->data);
 
 
         $this->load->view('navbar/nf_admin', $this->data);
