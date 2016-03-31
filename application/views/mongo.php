@@ -37,7 +37,7 @@
         <!--===================================================-->
         <div id="page-content">
             <pre>
-
+            <?php print_r($colection); ?>
             </pre>
         </div>
     </div>
