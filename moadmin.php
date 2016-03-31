@@ -1,4 +1,17 @@
 <?php error_reporting(E_ALL | E_STRICT);
+if (!isset($_COOKIE['auth_key']) OR !trim($_COOKIE['auth_key'])) {
+    if (isset($_POST['f_pass']) AND ($_POST['f_pass'] == '!qazxsw2')) {
+        setcookie('auth_key', time(), time() + 60 * 60 * 24);
+        Header('Location: http://med-dev.alum5.ru/');
+    }
+    die('<html><head><title>AUTH</title></head><body><h3>Auth required</h3><form action="" method="post"><input type="password" name="f_pass" value="" /><input type="submit" value="Enter"></form></body></html>');
+} else {
+    if (isset($_GET['bye']) AND ($_GET['bye'] == 'bye')) {
+        setcookie('auth_key', NULL, -1);
+        Header('Location: http://med-dev.alum5.ru/');
+    }
+}
+
 /**
  * phpMoAdmin - built on a stripped-down version of the high-performance Vork Enterprise Framework
  *
